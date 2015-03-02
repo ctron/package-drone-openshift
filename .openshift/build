@@ -1,0 +1,15 @@
+#!/bin/bash
+
+set -e
+
+pdrone_version=0.2.2
+
+download_url="https://github.com/ctron/package-drone/releases/download/v${version}/package-drone-server-${version}-1.el7.noarch.rpm"
+
+echo "Start building..."
+
+curl -s "${download_url}" > pdrone.rpm
+
+rpm -Uvh pdrone.rpm
+
+echo "Build complete"
