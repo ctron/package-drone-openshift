@@ -19,6 +19,7 @@ Scaling:
 Categories:
  - service
  - web_framework
+ - java
 Cart-Data:
 - Key: adminToken
   Type: cart_data
