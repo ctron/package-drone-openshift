@@ -1,0 +1,45 @@
+Name: package-drone-server
+Cartridge-Short-Name: PDRONE
+Display-Name: Package Drone
+Description: "Package Drone Server instance"
+Architecture: noarch
+Version: '0.2.3'
+Versions:
+ - '0.2.3'
+License: "EPL"
+License-Url: https://www.eclipse.org/legal/epl-v10.html
+Website: http://packagedrone.org
+Vendor: IBH SYSTEMS GmbH
+Cartridge-Version: '0.0.1'
+Cartridge-Vendor: ctron
+Scaling:
+ Min: 1
+ Max: 1
+Categories:
+ - service
+ - web_framework
+Cart-Data:
+- Key: password
+  Type: cart_data
+  Description: The password of the admin user
+Requires:
+ - mysql-5.5
+Provides:
+ - package-drone-server
+Publishes:
+  publish-http-url:
+    Type: "NET_TCP:httpd-proxy-info"
+Subscribes:
+  set-env:
+    Type: ENV:*
+    Required: false
+Endpoints:
+ - Private-IP-Name:     IP
+   Private-Port-Name:   HTTP_PORT
+   Private-Port:        8080
+   Public-Port-Name:    HTTP_PROXY_PORT
+   Mappings:
+     - Frontend:        ""
+       Backend:         ""
+       Options:
+         websocket: false

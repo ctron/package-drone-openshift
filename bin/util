@@ -1,0 +1,97 @@
+#!/bin/bash
+
+set -e
+
+source $OPENSHIFT_CARTRIDGE_SDK_BASH
+
+export JAVA_HOME=/etc/alternatives/jre_1.8.0
+
+PDRONE_PID_FILE=${OPENSHIFT_HOMEDIR}/app-root/runtime/pdrone.pid
+
+PDRONE_PROV_URL=http://${OPENSHIFT_PDRONE_IP}:${OPENSHIFT_PDRONE_HTTP_PORT}/system/backup/provision
+PDRONE_TEST_URL=http://${OPENSHIFT_PDRONE_IP}:${OPENSHIFT_PDRONE_HTTP_PORT}/login
+
+function isrunning () {
+    if [ -f "$PDRONE_PID_FILE" ]; then
+        
+        pdpid=$(cat $PDRONE_PID_FILE)
+        
+        if [ -z "$pdpid" ] ; then
+            return 1
+        fi
+        
+        if /bin/ps --pid $pdpid 1>&2 >/dev/null; then
+            return 0
+        fi
+    fi
+    return 1
+}
+
+function ishttpup () {
+    if echo 2> /dev/null > "/dev/tcp/${OPENSHIFT_PDRONE_IP}/${OPENSHIFT_PDRONE_HTTP_PORT}"; then
+        return 0
+    fi
+    return 1
+}
+
+function waithttpup () {
+    local count=0
+    while [ ${count} -lt 64 ]
+    do
+        if ishttpup; then
+            echo "Found Package Drone: ${OPENSHIFT_PDRONE_IP}:${OPENSHIFT_PDRONE_HTTP_PORT}"
+            return 0
+        fi
+        
+        if [ -f "$PDRONE_PID_FILE" ] &&  ! isrunning; then
+            echo "Package Drone not running"
+            return 2
+        fi
+        
+        let count=${count}+1
+        sleep 2
+    done
+    return 1
+}
+
+function waithttpdown () {
+    local count=0
+    while [ ${count} -lt 64 ]
+    do
+        if ! ishttpup; then
+            echo "Port is closed ... success!"
+            return 0
+        fi
+        
+        if ! isrunning; then
+            # We don't wait here, since it seems to be somebody else who has this port
+            echo "Package Drone not running ... not waiting"
+            return 0
+        fi
+        
+        let count=${count}+1
+        sleep 2
+    done
+    return 1
+}
+
+function waitdeploy () {
+    local count=0
+    
+    while [ ${count} -lt 64 ]
+    do
+        if ! ishttpup; then
+            echo "Port is closed ... abort!"
+            return 2
+        fi
+        
+        if wget -O - -q "$PDRONE_TEST_URL" &> /dev/null; then
+            return 0
+        fi
+        
+        let count=${count}+1
+        sleep 2
+    done
+    
+    return 1
+}

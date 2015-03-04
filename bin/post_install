@@ -1,0 +1,18 @@
+#!/bin/bash
+
+set -e
+
+source $OPENSHIFT_CARTRIDGE_SDK_BASH
+source ${OPENSHIFT_PDRONE_DIR}/bin/util
+
+# dump
+
+env | sort > ${OPENSHIFT_PDRONE_DIR}/post_install.txt
+
+# create provision file
+
+erb ${OPENSHIFT_PDRONE_DIR}/provision/configurations.tpl.xml > ${OPENSHIFT_PDRONE_DIR}/provision/configurations.xml
+
+# load provision file
+
+wget --http-user=admin --http-password=${OPENSHIFT_PDRONE_ADMIN_TOKEN} --post-file ${OPENSHIFT_PDRONE_DIR}/provision/configurations.xml --no-check-certificate "$PDRONE_PROV_URL"

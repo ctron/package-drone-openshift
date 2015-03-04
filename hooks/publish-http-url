@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -e
+
+# Get gear ip address.
+
+gip=$(facter ipaddress)
+
+# Publish the default Jetty/Package Drone port
+
+echo "${OPENSHIFT_GEAR_DNS}|${gip}:${OPENSHIFT_PDRONE_HTTP_PORT}"

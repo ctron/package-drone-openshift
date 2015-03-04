@@ -1,0 +1,76 @@
+#!/bin/bash
+
+set -e
+
+# Syntax check
+if ! [ $# -eq 1 ]; then
+    echo "Usage: $0 [start|restart|graceful|graceful-stop|stop|status]"
+    exit 1
+fi
+
+source $OPENSHIFT_CARTRIDGE_SDK_BASH
+
+source ${OPENSHIFT_PDRONE_DIR}/bin/util
+
+function nyi {
+    echo "not yet implemented"
+}
+
+function start {
+    if ! isrunning; then
+        ${OPENSHIFT_PDRONE_DIR}/bin/run |& /usr/bin/logshifter -tag pdrone &
+    fi
+    
+    waithttpup
+    waitdeploy
+}
+
+function killdrone {
+    local _pid=$1
+    kill -TERM ${_pid}
+}
+
+function stop {
+    if isrunning; then
+        if [ -f "$PDRONE_PID_FILE" ]; then
+            pid=$(cat $PDRONE_PID_FILE)
+            killdrone $pid
+            waithttpdown
+            rm "$PDRONE_PID_FILE"
+        fi
+    fi
+}
+
+function restart {
+    stop
+    start
+}
+
+function status {
+    if isrunning
+    then
+        client_result "Package Drone is running"
+    else
+        client_result "Package Drone is stopped"
+    fi
+    
+    if ishttpup; then
+        client_result "Package Drone port is open"
+    else
+        client_result "Package Drone port is closed"
+    fi
+}
+
+case "$1" in
+    start)              start ;;
+    restart|graceful)   restart ;;
+    graceful-stop|stop) stop ;;
+    status)             status ;;
+    build)              nyi ;;
+    pre-build)          nyi ;;
+    post-deploy)        nyi ;;
+    tidy)               nyi ;;
+    *)                  exit 0;
+esac
+
+exit 0

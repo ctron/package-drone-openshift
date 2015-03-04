@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== 
+     Build Package Drone versions
+     ====================================================================== -->
+<project name="project" default="default">
+    <description>
+    	Build Package Drone version
+    </description>
+
+    <!-- ================================= 
+          target: default             
+         ================================= -->
+    <target name="default" depends="download, unpack">
+    </target>
+
+    <!-- ================================= 
+          target: download
+         ================================= -->
+    <target name="download">
+        <mkdir dir="download"/>
+        <get src="https://github.com/ctron/package-drone/releases/download/v0.2.3/package-drone-server-0.2.3.zip" dest="download/package-drone-server-0.2.3.zip" usetimestamp="true"/>
+    </target>
+	
+    <!-- ================================= 
+          target: unpack
+         ================================= -->
+    <target name="unpack">
+    	<mkdir dir="versions/0.2.3/instance"/>
+    	<exec dir="versions/0.2.3/instance" executable="unzip">
+    	   <arg value="-o"/>
+    	   <arg file="download/package-drone-server-0.2.3.zip"/>
+    	</exec>
+    </target>
+
+</project>
