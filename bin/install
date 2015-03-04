@@ -21,4 +21,4 @@ client_result ""
 client_result " Package Drone Admin Token: ${password}"
 client_result ""
 
-cart_props "password=$password"
+cart_props "adminToken=$password"

@@ -20,7 +20,7 @@ Categories:
  - service
  - web_framework
 Cart-Data:
-- Key: password
+- Key: adminToken
   Type: cart_data
   Description: The password of the admin user
 Requires:
