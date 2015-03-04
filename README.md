@@ -4,8 +4,7 @@ This repository provides Package Drone Cartridge for OpenShift
 
 ## Instructions
 
-1.) Get an account at [OpenShift](https://openshift.redhat.com), a free one is ok
-2.) Follow one of the following methods
+First get an account at [OpenShift](https://openshift.redhat.com), a free one is ok
 
 ### Command Line
 
@@ -54,17 +53,17 @@ After the application is set up you need to create the database schema and creat
 
 Log on to the system using the user `admin` and the "admin token" (see above).
 
-1.) Click on the task marker in the upper right
-2.) Follow the link to for "install schema"
-3.) Install the database schema
+1. Click on the task marker in the upper right
+2. Follow the link to for "install schema"
+3. Install the database schema
 
 Create the manager user:
 
-1.) Go to System -> Users
-2.) Create a new user
-3.) Edit the user
-4.) Select MANAGER and optionally ADMIN
-5.) Save changes
+1. Go to System -> Users
+2. Create a new user
+3. Edit the user
+4. Select MANAGER and optionally ADMIN
+5. Save changes
 
 
 
