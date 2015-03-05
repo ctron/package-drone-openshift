@@ -3,7 +3,7 @@
 <repository name='Bundle pool' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
   <properties size='2'>
     <property name='p2.system' value='true'/>
-    <property name='p2.timestamp' value='1425557502680'/>
+    <property name='p2.timestamp' value='1425558546234'/>
   </properties>
   <mappings size='3'>
     <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
@@ -36,16 +36,11 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.sec.web.ui' version='1.0.0.20150305-1207'>
       <properties size='1'>
-        <property name='download.size' value='37547'/>
+        <property name='download.size' value='37545'/>
       </properties>
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='de.dentrassi.pm.sec.service.jpa' version='1.0.0.20150305-1207'>
-      <properties size='1'>
-        <property name='download.size' value='26933'/>
-      </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='javax.activation' version='1.1.0.v201211130549'>
       <properties size='1'>
@@ -54,7 +49,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.storage.web' version='0.2.4.20150305-1044'>
       <properties size='1'>
-        <property name='download.size' value='61783'/>
+        <property name='download.size' value='61780'/>
       </properties>
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
@@ -77,7 +72,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.osgi.job.jpa' version='1.0.0.20150224-0955'>
       <properties size='1'>
-        <property name='download.size' value='5669'/>
+        <property name='download.size' value='5667'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.jetty.osgi.boot' version='9.2.9.v20150224'>
@@ -102,7 +97,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.osgi.validation' version='1.0.0.20150224-0955'>
       <properties size='1'>
-        <property name='download.size' value='3458'/>
+        <property name='download.size' value='3456'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.mortbay.jasper.apache-el' version='8.0.9'>
@@ -112,12 +107,12 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.npm' version='1.0.0.20150224-0955'>
       <properties size='1'>
-        <property name='download.size' value='13508'/>
+        <property name='download.size' value='13505'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.p2.web' version='1.0.0.20150224-0955'>
       <properties size='1'>
-        <property name='download.size' value='10064'/>
+        <property name='download.size' value='10062'/>
       </properties>
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
@@ -130,7 +125,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.osgi.job.web' version='1.0.0.20150224-0955'>
       <properties size='1'>
-        <property name='download.size' value='8416'/>
+        <property name='download.size' value='8415'/>
       </properties>
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
@@ -143,7 +138,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.system' version='1.0.0.20150303-1423'>
       <properties size='1'>
-        <property name='download.size' value='13187'/>
+        <property name='download.size' value='13183'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.osgi.web.form' version='1.0.0.20150224-0955'>
@@ -161,7 +156,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.signing.pgp.web' version='1.0.0.20150224-0955'>
       <properties size='1'>
-        <property name='download.size' value='13414'/>
+        <property name='download.size' value='13411'/>
       </properties>
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
@@ -169,7 +164,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.osgi.job' version='1.0.0.20150224-0955'>
       <properties size='1'>
-        <property name='download.size' value='10285'/>
+        <property name='download.size' value='10284'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.apache.httpcomponents.httpclient' version='4.3.6.v201411290715'>
@@ -189,7 +184,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.osgi.job.service.jpa' version='1.0.0.20150224-0955'>
       <properties size='1'>
-        <property name='download.size' value='12349'/>
+        <property name='download.size' value='12346'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.sec' version='1.0.0.20150224-0955'>
@@ -209,7 +204,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.osgi.converter' version='1.0.0.20150224-0955'>
       <properties size='1'>
-        <property name='download.size' value='16508'/>
+        <property name='download.size' value='16504'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.apache.commons.io' version='2.4.0'>
@@ -229,16 +224,8 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.deb' version='1.0.0.20150224-0955'>
       <properties size='1'>
-        <property name='download.size' value='45153'/>
+        <property name='download.size' value='45150'/>
       </properties>
-    </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='de.dentrassi.pm' version='0.2.4.20150305-1207'>
-      <properties size='1'>
-        <property name='download.size' value='12803'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.console' version='1.1.100.v20141023-1406'>
       <properties size='1'>
@@ -247,7 +234,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.osgi' version='1.0.0.20150227-1242'>
       <properties size='1'>
-        <property name='download.size' value='33418'/>
+        <property name='download.size' value='33415'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.event' version='1.3.100.v20140115-1647'>
@@ -297,7 +284,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.utils.deb' version='1.0.0.20150224-0955'>
       <properties size='1'>
-        <property name='download.size' value='84542'/>
+        <property name='download.size' value='84540'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.jdt.core.compiler.batch' version='3.8.2.v20130121-145325'>
@@ -307,12 +294,12 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.sec.service.core' version='1.0.0.20150224-0955'>
       <properties size='1'>
-        <property name='download.size' value='4252'/>
+        <property name='download.size' value='4249'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.deb.web' version='1.0.0.20150224-0955'>
       <properties size='1'>
-        <property name='download.size' value='9734'/>
+        <property name='download.size' value='9731'/>
       </properties>
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
@@ -320,7 +307,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.external.maven' version='1.0.0.20150223-1037'>
       <properties size='1'>
-        <property name='download.size' value='659967'/>
+        <property name='download.size' value='659964'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.jetty.schemas' version='3.1.0.M0'>
@@ -340,7 +327,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.maven' version='1.0.0.20150303-1519'>
       <properties size='1'>
-        <property name='download.size' value='37843'/>
+        <property name='download.size' value='37839'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.jetty.http' version='9.2.9.v20150224'>
@@ -365,7 +352,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.database' version='1.0.0.20150305-0909'>
       <properties size='1'>
-        <property name='download.size' value='38417'/>
+        <property name='download.size' value='38414'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.apache.felix.gogo.shell' version='0.10.0.v201212101605'>
@@ -375,7 +362,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.sec.web' version='1.0.0.20150224-0955'>
       <properties size='1'>
-        <property name='download.size' value='15308'/>
+        <property name='download.size' value='15306'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='classmate' version='1.0.0'>
@@ -385,7 +372,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.importer' version='1.0.0.20150224-0955'>
       <properties size='1'>
-        <property name='download.size' value='24406'/>
+        <property name='download.size' value='24401'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='javax.mail.glassfish' version='1.4.1.v201108011116'>
@@ -395,12 +382,12 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.importer.http' version='1.0.0.20150224-0955'>
       <properties size='1'>
-        <property name='download.size' value='6736'/>
+        <property name='download.size' value='6732'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.importer.http.web' version='1.0.0.20150224-0955'>
       <properties size='1'>
-        <property name='download.size' value='11890'/>
+        <property name='download.size' value='11887'/>
       </properties>
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
@@ -408,12 +395,12 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.aspect.cleanup' version='1.0.0.20150224-0955'>
       <properties size='1'>
-        <property name='download.size' value='17946'/>
+        <property name='download.size' value='17943'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.system.web' version='1.0.0.20150305-0909'>
       <properties size='1'>
-        <property name='download.size' value='8938'/>
+        <property name='download.size' value='8935'/>
       </properties>
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
@@ -456,12 +443,12 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.sec.service.admin' version='1.0.0.20150305-1207'>
       <properties size='1'>
-        <property name='download.size' value='7067'/>
+        <property name='download.size' value='7065'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.logging.jul' version='1.0.0.20150224-0955'>
       <properties size='1'>
-        <property name='download.size' value='3190'/>
+        <property name='download.size' value='3185'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='com.mysql.jdbc' version='5.1.34'>
@@ -476,12 +463,12 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.core' version='1.0.0.20150224-0955'>
       <properties size='1'>
-        <property name='download.size' value='3427'/>
+        <property name='download.size' value='3425'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.p2' version='1.0.0.20150303-1120'>
       <properties size='1'>
-        <property name='download.size' value='27270'/>
+        <property name='download.size' value='27266'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.jetty.xml' version='9.2.9.v20150224'>
@@ -496,7 +483,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.sec.service' version='1.0.0.20150305-1207'>
       <properties size='1'>
-        <property name='download.size' value='6964'/>
+        <property name='download.size' value='6960'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='ch.qos.logback.core' version='1.0.7.v20121108-1250'>
@@ -506,12 +493,12 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.storage.service' version='1.0.0.20150302-1121'>
       <properties size='1'>
-        <property name='download.size' value='8605'/>
+        <property name='download.size' value='8602'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.common.web' version='1.0.0.20150305-1043'>
       <properties size='1'>
-        <property name='download.size' value='389556'/>
+        <property name='download.size' value='389553'/>
       </properties>
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
@@ -529,12 +516,12 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.core.jpa' version='1.0.0.20150224-0955'>
       <properties size='1'>
-        <property name='download.size' value='5583'/>
+        <property name='download.size' value='5579'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.osgi.utils' version='1.0.0.20150224-0955'>
       <properties size='1'>
-        <property name='download.size' value='11465'/>
+        <property name='download.size' value='11461'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.persistence.core' version='2.5.2.v20140319-9ad6abd'>
@@ -544,7 +531,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.generator.p2' version='1.0.0.20150225-1009'>
       <properties size='1'>
-        <property name='download.size' value='21746'/>
+        <property name='download.size' value='21743'/>
       </properties>
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
@@ -552,17 +539,17 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.storage.service.jpa' version='1.0.0.20150302-1121'>
       <properties size='1'>
-        <property name='download.size' value='54761'/>
+        <property name='download.size' value='54756'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.r5' version='1.0.0.20150224-1712'>
       <properties size='1'>
-        <property name='download.size' value='12003'/>
+        <property name='download.size' value='12000'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.mail.service' version='1.0.0.20150224-0955'>
       <properties size='1'>
-        <property name='download.size' value='7375'/>
+        <property name='download.size' value='7372'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.jboss.logging.jboss-logging' version='3.1.3.GA'>
@@ -582,12 +569,12 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.osgi.scheduler.simple' version='1.0.0.20150224-0955'>
       <properties size='1'>
-        <property name='download.size' value='8752'/>
+        <property name='download.size' value='8751'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.unzip' version='1.0.0.20150227-1233'>
       <properties size='1'>
-        <property name='download.size' value='7558'/>
+        <property name='download.size' value='7554'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.jetty.plus' version='9.2.9.v20150224'>
@@ -595,9 +582,22 @@
         <property name='download.size' value='54157'/>
       </properties>
     </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='de.dentrassi.pm' version='0.2.4.20150305-1228'>
+      <properties size='1'>
+        <property name='download.size' value='12809'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.osgi.web.servlet' version='1.0.0.20150224-0955'>
       <properties size='1'>
-        <property name='download.size' value='20155'/>
+        <property name='download.size' value='20153'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.dentrassi.pm.sec.service.jpa' version='1.0.0.20150305-1228'>
+      <properties size='1'>
+        <property name='download.size' value='27141'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.objectweb.asm.tree' version='5.0.1'>
@@ -612,7 +612,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.osgi.scheduler' version='1.0.0.20150224-0955'>
       <properties size='1'>
-        <property name='download.size' value='3081'/>
+        <property name='download.size' value='3078'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='ch.qos.logback.slf4j' version='1.0.7.v20121108-1250'>
@@ -622,7 +622,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.common' version='1.0.0.20150302-1211'>
       <properties size='1'>
-        <property name='download.size' value='27073'/>
+        <property name='download.size' value='27069'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.osgi.services' version='3.5.0.v20150126-1936'>
@@ -632,7 +632,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.core.web' version='1.0.0.20150224-0955'>
       <properties size='1'>
-        <property name='download.size' value='10135'/>
+        <property name='download.size' value='10132'/>
       </properties>
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
@@ -650,7 +650,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.todo.web' version='1.0.0.20150303-1422'>
       <properties size='1'>
-        <property name='download.size' value='6794'/>
+        <property name='download.size' value='6792'/>
       </properties>
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
@@ -668,7 +668,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.aspect.cleanup.web' version='1.0.0.20150303-1422'>
       <properties size='1'>
-        <property name='download.size' value='12049'/>
+        <property name='download.size' value='12048'/>
       </properties>
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
@@ -681,12 +681,12 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.storage.jpa' version='1.0.0.20150224-0955'>
       <properties size='1'>
-        <property name='download.size' value='30814'/>
+        <property name='download.size' value='30809'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.console' version='1.0.0.20150225-1348'>
       <properties size='1'>
-        <property name='download.size' value='5440'/>
+        <property name='download.size' value='5437'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.apache.httpcomponents.httpcore' version='4.3.3.v201411290715'>
@@ -701,7 +701,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.setup.web' version='1.0.0.20150305-0909'>
       <properties size='1'>
-        <property name='download.size' value='17891'/>
+        <property name='download.size' value='17888'/>
       </properties>
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
@@ -739,12 +739,12 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.aspect.common' version='1.0.0.20150227-1242'>
       <properties size='1'>
-        <property name='download.size' value='43838'/>
+        <property name='download.size' value='43834'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.sec.jpa' version='1.0.0.20150224-0955'>
       <properties size='1'>
-        <property name='download.size' value='5644'/>
+        <property name='download.size' value='5640'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.aether.transport.http' version='1.0.1.v20141111'>
@@ -764,12 +764,12 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.generator' version='1.0.0.20150224-0955'>
       <properties size='1'>
-        <property name='download.size' value='7080'/>
+        <property name='download.size' value='7076'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.osgi.web' version='1.0.0.20150303-1519'>
       <properties size='1'>
-        <property name='download.size' value='98654'/>
+        <property name='download.size' value='98653'/>
       </properties>
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
@@ -787,7 +787,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.mail.web' version='1.0.0.20150224-1601'>
       <properties size='1'>
-        <property name='download.size' value='12430'/>
+        <property name='download.size' value='12428'/>
       </properties>
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
@@ -795,7 +795,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.osgi.web' version='1.0.0.20150226-0940'>
       <properties size='1'>
-        <property name='download.size' value='15671'/>
+        <property name='download.size' value='15669'/>
       </properties>
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
@@ -803,12 +803,12 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.signing' version='1.0.0.20150224-0955'>
       <properties size='1'>
-        <property name='download.size' value='2758'/>
+        <property name='download.size' value='2753'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.signing.pgp' version='1.0.0.20150224-0955'>
       <properties size='1'>
-        <property name='download.size' value='9297'/>
+        <property name='download.size' value='9293'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.jetty.deploy' version='9.2.9.v20150224'>
@@ -818,12 +818,12 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.osgi.validation.hibernate' version='1.0.0.20141208-0907'>
       <properties size='1'>
-        <property name='download.size' value='2814'/>
+        <property name='download.size' value='2815'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.storage' version='1.0.0.20150302-1208'>
       <properties size='1'>
-        <property name='download.size' value='11338'/>
+        <property name='download.size' value='11335'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.hibernate.validator' version='5.1.3.Final'>
@@ -838,7 +838,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.importer.aether' version='1.0.0.20150224-0955'>
       <properties size='1'>
-        <property name='download.size' value='23423'/>
+        <property name='download.size' value='23420'/>
       </properties>
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
@@ -846,12 +846,12 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.aspect' version='1.0.0.20150227-1159'>
       <properties size='1'>
-        <property name='download.size' value='12424'/>
+        <property name='download.size' value='12420'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='de.dentrassi.pm.todo' version='1.0.0.20150223-1621'>
       <properties size='1'>
-        <property name='download.size' value='12257'/>
+        <property name='download.size' value='12254'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.aether.api' version='1.0.1.v20141111'>
