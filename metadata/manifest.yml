@@ -17,7 +17,6 @@ Scaling:
  Min: 1
  Max: 1
 Categories:
- - service
  - web_framework
  - java
 Cart-Data:
