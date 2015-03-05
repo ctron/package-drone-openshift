@@ -53,15 +53,9 @@ Or you can read it out using `rhc show-app pdrone`:
 
 ## Configure system
 
-After the application is set up you need to create the database schema and create one manager user.
+After the application is set up you need to create one manager user.
 
 Log on to the system using the user `admin` and the "admin token" (see above).
-
-1. Click on the task marker in the upper right
-2. Follow the link to for "install schema"
-3. Install the database schema
-
-Create the manager user:
 
 1. Go to System -> Users
 2. Create a new user
