@@ -20,7 +20,8 @@ echo "$password" > $OPENSHIFT_PDRONE_DIR/env/OPENSHIFT_PDRONE_ADMIN_TOKEN
 client_result ""
 client_result "Package Drone server instance"
 client_result ""
-client_result "   Package Drone Admin Token: ${password}"
+client_result "    Admin Name: admin"
+client_result "   Admin Token: ${password}"
 client_result ""
 
 cart_props "adminToken=$password"
