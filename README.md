@@ -6,7 +6,7 @@ This repository provides Package Drone Cartridge for OpenShift
 
 First get an account at [OpenShift](https://openshift.redhat.com), a free one is ok.
 
-Next you need to follow _one_of the following installation methods. Depending what you local system looks like,
+Next you need to follow *one* of the following installation methods. Depending what you local system looks like,
 you can use the `rhc` command line application if you have it installed, or even easier, use the way web page
 on "OpenShift Hub". 
 
