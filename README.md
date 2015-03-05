@@ -4,9 +4,19 @@ This repository provides Package Drone Cartridge for OpenShift
 
 ## Instructions
 
-First get an account at [OpenShift](https://openshift.redhat.com), a free one is ok
+First get an account at [OpenShift](https://openshift.redhat.com), a free one is ok.
 
-### Command Line
+Next you need to follow _one_of the following installation methods. Depending what you local system looks like,
+you can use the `rhc` command line application if you have it installed, or even easier, use the way web page
+on "OpenShift Hub". 
+
+Be sure to configure the system afterwards (see below).
+
+### Method 1: OpenShift Hub
+
+Go the [Package Drone Quickstart](https://hub.openshift.com/quickstarts/90-package-drone) on OpenShift Hub and click the big "deploy" button.
+
+### Method 2: Command Line
 
 You need to have the `rhc` command installed and set up:
 
@@ -14,13 +24,9 @@ You need to have the `rhc` command installed and set up:
 rhc create-app pdrone https://raw.githubusercontent.com/ctron/package-drone-openshift/master/metadata/manifest.yml
 ```
 
-### OpenShift Hub
+### Method 3: Web Console Manual
 
-Go the [Package Drone](https://hub.openshift.com/quickstarts/90-package-drone) on OpenShift Hub click the bug "deploy" button.
-
-### Web Console Manual
-
-Create app with the cartridge
+Create a new app from the OpenShift console with the cartridge. Do not select the DIY or any other app.
 
 ```
 https://raw.githubusercontent.com/ctron/package-drone-openshift/master/metadata/manifest.yml
@@ -41,7 +47,7 @@ Or you can read it out using `rhc show-app pdrone`:
 
 ```
 …
-  ctron-package-drone-server-0.2.3 (Package Drone)
+  ctron-package-drone-server-0.2.4 (Package Drone)
   ------------------------------------------------
     From:       https://raw.githubusercontent.com/ctron/package-drone-openshift/master/metadata/manifest.yml
     Website:    http://packagedrone.org
