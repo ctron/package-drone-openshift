@@ -60,7 +60,7 @@ Log on to the system using the user `admin` and the "admin token" (see above).
 1. Go to System -> Users
 2. Create a new user
 3. Edit the user
-4. Select MANAGER and optionally ADMIN
+4. Select `MANAGER` and optionally `ADMIN`
 5. Save changes
 
 
