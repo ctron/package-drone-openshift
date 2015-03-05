@@ -9,8 +9,8 @@ Require-Bundle: org.apache.taglibs.standard-impl;bundle-version="1.2.1
 Bundle-ManifestVersion: 2
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Eclipse-SourceReferences: scm:git:ssh://github.com/ctron/package-drone
- ;path="de.dentrassi.pm.mail.web";commitId=babfb64e27b49be7f59b1ac2642
- 4f6835afc5775
+ ;path="de.dentrassi.pm.mail.web";commitId=b935b47d623128e26b208376589
+ a5cbe448b4264
 Bundle-Vendor: Jens Reimann
 Import-Package: de.dentrassi.pm.common.web;version="1.0.0",de.dentrass
  i.pm.common.web.menu;version="1.0.0",de.dentrassi.pm.common.web.tags;
