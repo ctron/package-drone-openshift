@@ -14,7 +14,11 @@ You need to have the `rhc` command installed and set up:
 rhc create-app pdrone https://raw.githubusercontent.com/ctron/package-drone-openshift/master/metadata/manifest.yml
 ```
 
-### Web UI Manual
+### OpenShift Hub
+
+Go the [Package Drone](https://hub.openshift.com/quickstarts/90-package-drone) on OpenShift Hub click the bug "deploy" button.
+
+### Web Console Manual
 
 Create app with the cartridge
 
