@@ -69,5 +69,12 @@ Log on to the system using the user `admin` and the "admin token" (see above).
 4. Select `MANAGER` and optionally `ADMIN`
 5. Save changes
 
+## Using 'next'
+
+The branch `next` contains a snapshot of the next version. You can use it using the URL:
+
+```
+http://cartreflect-claytondev.rhcloud.com/github/ctron/package-drone-openshift?commit=next
+```
 
 
