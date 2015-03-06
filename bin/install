@@ -18,7 +18,7 @@ password=$(generate_password)
 echo "$password" > $OPENSHIFT_PDRONE_DIR/env/OPENSHIFT_PDRONE_ADMIN_TOKEN
 
 client_result ""
-client_result "Package Drone server instance"
+client_result "Package Drone $version server instance"
 client_result ""
 client_result "    Admin Name: admin"
 client_result "   Admin Token: ${password}"
