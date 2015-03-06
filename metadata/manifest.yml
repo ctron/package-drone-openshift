@@ -3,15 +3,16 @@ Cartridge-Short-Name: PDRONE
 Display-Name: Package Drone
 Description: "Package Drone Server instance"
 Architecture: noarch
-Version: '0.2.4'
+Version: '0.2.5'
 Versions:
  - '0.2.4'
+ - '0.2.5'
 License: "EPL"
 License-Url: https://www.eclipse.org/legal/epl-v10.html
 Source-Url: https://github.com/ctron/package-drone-openshift.git
 Website: http://packagedrone.org
 Vendor: IBH SYSTEMS GmbH
-Cartridge-Version: '0.0.2'
+Cartridge-Version: '0.0.3'
 Cartridge-Vendor: ctron
 Scaling:
  Min: 1
