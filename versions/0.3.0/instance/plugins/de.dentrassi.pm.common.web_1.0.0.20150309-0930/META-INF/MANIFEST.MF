@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: de.dentrassi.pm.common.web
+Archiver-Version: Plexus Archiver
+Web-Export-Taglib: WEB-INF/tags/main/pm.tld
+Built-By: jens
+Require-Bundle: org.apache.taglibs.standard-impl;bundle-version="1.2.1
+ ",de.dentrassi.osgi.web;bundle-version="1.0.0",de.dentrassi.osgi.web.
+ form;bundle-version="1.0.0"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Eclipse-SourceReferences: scm:git:ssh://github.com/ctron/package-drone
+ ;path="de.dentrassi.pm.common.web";commitId=8e5cd2214fc179eb4ce579115
+ eddf251489e6485
+Bundle-Vendor: Jens Reimann
+Import-Package: com.google.common.escape;version="18.0.0",com.google.c
+ ommon.html;version="18.0.0",de.dentrassi.pm.sec;version="1.0.0",javax
+ .servlet;version="3.1.0",javax.servlet.http;version="3.1.0",org.eclip
+ se.scada.utils;version="0.2.0",org.osgi.framework;version="1.8.0",org
+ .osgi.util.tracker;version="1.5.1"
+Service-Component: OSGI-INF/menuInterceptor.xml
+Export-Package: de.dentrassi.pm.common.web;version="1.0.0";uses:="de.d
+ entrassi.osgi.web,javax.servlet.http",de.dentrassi.pm.common.web.menu
+ ;version="1.0.0";uses:="javax.servlet.http,de.dentrassi.osgi.web,de.d
+ entrassi.pm.common.web",de.dentrassi.pm.common.web.tags;version="1.0.
+ 0";uses:="de.dentrassi.pm.storage"
+Bundle-Name: Common Web
+Bundle-Version: 1.0.0.20150309-0930
+Web-Static-Resources: /resources;target:="/resources",/resources/favic
+ on.ico;target:="/favicon.ico"
+Web-TagLib-Directory: /WEB-INF/tags/main
+Created-By: Apache Maven 3.2.5
+Build-Jdk: 1.8.0_20
+Eclipse-BundleShape: dir
+
