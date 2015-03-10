@@ -13,7 +13,7 @@ License-Url: https://www.eclipse.org/legal/epl-v10.html
 Source-Url: https://github.com/ctron/package-drone-openshift.git
 Website: http://packagedrone.org
 Vendor: IBH SYSTEMS GmbH
-Cartridge-Version: '0.0.3'
+Cartridge-Version: '0.0.4'
 Cartridge-Vendor: ctron
 Scaling:
  Min: 1
