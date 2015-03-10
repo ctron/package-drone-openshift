@@ -10,8 +10,8 @@ Bundle-ManifestVersion: 2
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
 Eclipse-SourceReferences: scm:git:ssh://github.com/ctron/package-drone
- ;path="de.dentrassi.pm.setup.web";commitId=8e5cd2214fc179eb4ce579115e
- ddf251489e6485
+ ;path="de.dentrassi.pm.setup.web";commitId=ba390ffaea14af19a725f8a481
+ 1c395cc91a21ca
 Bundle-Vendor: Jens Reimann
 Import-Package: de.dentrassi.pm.database;version="1.0.0",de.dentrassi.
  pm.mail.service;version="1.0.0",de.dentrassi.pm.sec;version="1.0.0",d
