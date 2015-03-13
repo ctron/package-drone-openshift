@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="de.dentrassi.pm"
+      label="Package Drone Main Feature"
+      version="0.4.0.20150313-1335"
+      provider-name="Jens Reimann">
+
+   <description url="http://packagedrone.org">
+      A package manager repository for OSGi, Java and others.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="ch.qos.logback.classic"
+         download-size="255"
+         install-size="518"
+         version="1.0.7.v20121108-1250"
+         unpack="false"/>
+
+   <plugin
+         id="ch.qos.logback.core"
+         download-size="380"
+         install-size="722"
+         version="1.0.7.v20121108-1250"
+         unpack="false"/>
+
+   <plugin
+         id="ch.qos.logback.slf4j"
+         download-size="10"
+         install-size="16"
+         version="1.0.7.v20121108-1250"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="classmate"
+         download-size="58"
+         install-size="126"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.google.guava"
+         download-size="2203"
+         install-size="4786"
+         version="18.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.mysql.jdbc"
+         download-size="937"
+         install-size="2143"
+         version="5.1.34"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.aspect.common"
+         download-size="49"
+         install-size="86"
+         version="1.0.0.20150313-1052"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.common"
+         download-size="27"
+         install-size="45"
+         version="1.0.0.20150312-1524"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.logging.jul"
+         download-size="3"
+         install-size="2"
+         version="1.0.0.20150224-0955"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.maven"
+         download-size="37"
+         install-size="72"
+         version="1.0.0.20150312-1524"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.aspect"
+         download-size="19"
+         install-size="31"
+         version="1.0.0.20150313-1052"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.p2"
+         download-size="32"
+         install-size="58"
+         version="1.0.0.20150313-1052"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.storage.jpa"
+         download-size="33"
+         install-size="55"
+         version="1.0.0.20150313-1159"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.storage.service"
+         download-size="8"
+         install-size="13"
+         version="1.0.0.20150313-1052"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.storage.web"
+         download-size="70"
+         install-size="151"
+         version="0.4.0.20150313-1204"/>
+
+   <plugin
+         id="javax.activation"
+         download-size="54"
+         install-size="105"
+         version="1.1.0.v201211130549"
+         unpack="false"/>
+
+   <plugin
+         id="javax.annotation-api"
+         download-size="25"
+         install-size="62"
+         version="1.2.0"
+         unpack="false"/>
+
+   <plugin
+         id="javax.mail.glassfish"
+         download-size="480"
+         install-size="1065"
+         version="1.4.1.v201108011116"
+         unpack="false"/>
+
+   <plugin
+         id="javax.persistence"
+         download-size="158"
+         install-size="477"
+         version="2.1.0.v201304241213"
+         unpack="false"/>
+
+   <plugin
+         id="javax.servlet-api"
+         download-size="93"
+         install-size="189"
+         version="3.1.0"
+         unpack="false"/>
+
+   <plugin
+         id="javax.transaction"
+         download-size="28"
+         install-size="52"
+         version="1.1.1.v201105210645"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.aries.spifly.dynamic.bundle"
+         download-size="61"
+         install-size="122"
+         version="1.0.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.aries.util"
+         download-size="107"
+         install-size="206"
+         version="1.1.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.fileupload"
+         download-size="67"
+         install-size="127"
+         version="1.3.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.io"
+         download-size="180"
+         install-size="358"
+         version="2.4.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.felix.gogo.command"
+         download-size="56"
+         install-size="113"
+         version="0.10.0.v201209301215"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.felix.gogo.runtime"
+         download-size="78"
+         install-size="154"
+         version="0.10.0.v201209301036"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.felix.gogo.shell"
+         download-size="59"
+         install-size="121"
+         version="0.10.0.v201212101605"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.taglibs.standard-impl"
+         download-size="196"
+         install-size="460"
+         version="1.2.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.taglibs.taglibs-standard-spec"
+         download-size="38"
+         install-size="71"
+         version="1.2.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xalan"
+         download-size="2700"
+         install-size="5768"
+         version="2.7.1.v201005080400"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xml.serializer"
+         download-size="294"
+         install-size="596"
+         version="2.7.1.v201005080400"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.cm"
+         download-size="64"
+         install-size="130"
+         version="1.1.100.201502161400"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.common"
+         download-size="104"
+         install-size="192"
+         version="3.6.200.v20141113-1308"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.console"
+         download-size="115"
+         install-size="237"
+         version="1.1.100.v20141023-1406"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.ds"
+         download-size="189"
+         install-size="392"
+         version="1.4.200.v20131126-2331"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.event"
+         download-size="31"
+         install-size="57"
+         version="1.3.100.v20140115-1647"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.supplement"
+         download-size="102"
+         install-size="188"
+         version="1.6.0.v20141009-1504"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.util"
+         download-size="76"
+         install-size="139"
+         version="1.0.500.v20130404-1337"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.gemini.dbaccess.mysql"
+         download-size="8"
+         install-size="10"
+         version="1.1.0.RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.gemini.dbaccess.util"
+         download-size="11"
+         install-size="24"
+         version="1.1.0.RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.gemini.jpa"
+         download-size="181"
+         install-size="479"
+         version="1.2.0.M1"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jdt.core.compiler.batch"
+         download-size="1723"
+         install-size="4148"
+         version="3.8.2.v20130121-145325"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.annotations"
+         download-size="78"
+         install-size="165"
+         version="9.2.9.v20150224"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.apache-jsp"
+         download-size="10"
+         install-size="18"
+         version="9.2.9.v20150224"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.deploy"
+         download-size="49"
+         install-size="97"
+         version="9.2.9.v20150224"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.http"
+         download-size="103"
+         install-size="200"
+         version="9.2.9.v20150224"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.io"
+         download-size="103"
+         install-size="203"
+         version="9.2.9.v20150224"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.jndi"
+         download-size="40"
+         install-size="81"
+         version="9.2.9.v20150224"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.osgi.boot"
+         download-size="111"
+         install-size="226"
+         version="9.2.9.v20150224"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.osgi.boot.jsp"
+         download-size="13"
+         install-size="28"
+         version="9.2.9.v20150224"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.plus"
+         download-size="52"
+         install-size="110"
+         version="9.2.9.v20150224"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.schemas"
+         download-size="183"
+         install-size="896"
+         version="3.1.0.M0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.security"
+         download-size="93"
+         install-size="187"
+         version="9.2.9.v20150224"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.server"
+         download-size="408"
+         install-size="857"
+         version="9.2.9.v20150224"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.servlet"
+         download-size="112"
+         install-size="242"
+         version="9.2.9.v20150224"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.util"
+         download-size="346"
+         install-size="662"
+         version="9.2.9.v20150224"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.webapp"
+         download-size="105"
+         install-size="234"
+         version="9.2.9.v20150224"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.xml"
+         download-size="43"
+         install-size="95"
+         version="9.2.9.v20150224"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.osgi"
+         download-size="1238"
+         install-size="2633"
+         version="3.10.100.v20150129-2253"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.osgi.services"
+         download-size="104"
+         install-size="163"
+         version="3.5.0.v20150126-1936"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.osgi.util"
+         download-size="25"
+         install-size="49"
+         version="3.3.0.v20131023-1243"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.persistence.antlr"
+         download-size="185"
+         install-size="395"
+         version="3.2.0.v201302191141"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.persistence.asm"
+         download-size="264"
+         install-size="575"
+         version="3.3.1.v201302191223"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.persistence.core"
+         download-size="4937"
+         install-size="12909"
+         version="2.5.2.v20140319-9ad6abd"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.persistence.jpa"
+         download-size="1332"
+         install-size="3773"
+         version="2.5.2.v20140319-9ad6abd"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.persistence.jpa.jpql"
+         download-size="1334"
+         install-size="3509"
+         version="2.5.2.v20140319-9ad6abd"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.logging.jboss-logging"
+         download-size="55"
+         install-size="135"
+         version="3.1.3.GA"
+         unpack="false"/>
+
+   <plugin
+         id="org.mortbay.jasper.apache-el"
+         download-size="232"
+         install-size="453"
+         version="8.0.9"
+         unpack="false"/>
+
+   <plugin
+         id="org.mortbay.jasper.apache-jsp"
+         download-size="933"
+         install-size="2036"
+         version="8.0.9"
+         unpack="false"/>
+
+   <plugin
+         id="org.objectweb.asm"
+         download-size="51"
+         install-size="109"
+         version="5.0.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.objectweb.asm.commons"
+         download-size="40"
+         install-size="86"
+         version="5.0.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.objectweb.asm.tree"
+         download-size="28"
+         install-size="52"
+         version="5.0.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.slf4j.api"
+         download-size="34"
+         install-size="61"
+         version="1.7.2.v20121108-1250"
+         unpack="false"/>
+
+   <plugin
+         id="org.slf4j.jcl"
+         download-size="23"
+         install-size="43"
+         version="1.7.2.v20130115-1340"
+         unpack="false"/>
+
+   <plugin
+         id="org.slf4j.jul"
+         download-size="11"
+         install-size="18"
+         version="1.7.2.v20121108-1250"
+         unpack="false"/>
+
+   <plugin
+         id="osgi.enterprise"
+         download-size="294"
+         install-size="351"
+         version="4.2.0.201003190513"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.launcher"
+         download-size="48"
+         install-size="87"
+         version="1.3.0.v20140415-2008"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.osgi"
+         download-size="32"
+         install-size="64"
+         version="1.0.0.20150310-1451"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.storage"
+         download-size="12"
+         install-size="17"
+         version="1.0.0.20150313-1052"
+         unpack="false"/>
+
+   <plugin
+         id="com.google.gson"
+         download-size="205"
+         install-size="401"
+         version="2.3.1"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.osgi.utils"
+         download-size="11"
+         install-size="17"
+         version="1.0.0.20150224-0955"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.osgi.validation"
+         download-size="3"
+         install-size="3"
+         version="1.0.0.20150224-0955"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.osgi.validation.hibernate"
+         download-size="2"
+         install-size="1"
+         version="1.0.0.20141208-0907"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.osgi.web"
+         download-size="98"
+         install-size="181"
+         version="1.0.0.20150311-1615"/>
+
+   <plugin
+         id="de.dentrassi.osgi.web.form"
+         download-size="22"
+         install-size="39"
+         version="1.0.0.20150310-1246"/>
+
+   <plugin
+         id="de.dentrassi.osgi.web.servlet"
+         download-size="19"
+         install-size="38"
+         version="1.0.0.20150306-1136"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.generator"
+         download-size="6"
+         install-size="10"
+         version="1.0.0.20150224-0955"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.generator.p2"
+         download-size="34"
+         install-size="66"
+         version="1.0.0.20150310-1513"/>
+
+   <plugin
+         id="org.apache.commons.beanutils"
+         download-size="241"
+         install-size="500"
+         version="1.8.0.v201205091237"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.collections"
+         download-size="598"
+         install-size="1211"
+         version="3.2.0.v2013030210310"
+         unpack="false"/>
+
+   <plugin
+         id="javax.validation.api"
+         download-size="62"
+         install-size="93"
+         version="1.1.0.Final"
+         unpack="false"/>
+
+   <plugin
+         id="org.hibernate.validator"
+         download-size="619"
+         install-size="1488"
+         version="5.1.3.Final"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.scada.utils"
+         download-size="109"
+         install-size="204"
+         version="0.2.0.v20141023-0849"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.osgi.converter"
+         download-size="16"
+         install-size="25"
+         version="1.0.0.20150224-0955"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.database"
+         download-size="38"
+         install-size="73"
+         version="1.0.0.20150311-1439"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.r5"
+         download-size="11"
+         install-size="20"
+         version="1.0.0.20150224-1712"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.osgi.web"
+         download-size="15"
+         install-size="37"
+         version="1.0.0.20150312-1555"/>
+
+   <plugin
+         id="de.dentrassi.pm.p2.web"
+         download-size="9"
+         install-size="15"
+         version="1.0.0.20150224-0955"/>
+
+   <plugin
+         id="de.dentrassi.pm.sec"
+         download-size="7"
+         install-size="11"
+         version="1.0.0.20150224-0955"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.sec.jpa"
+         download-size="5"
+         install-size="8"
+         version="1.0.0.20150224-0955"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.sec.service"
+         download-size="6"
+         install-size="7"
+         version="1.0.0.20150305-1207"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.sec.web"
+         download-size="14"
+         install-size="24"
+         version="1.0.0.20150224-0955"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.sec.web.ui"
+         download-size="36"
+         install-size="70"
+         version="1.0.0.20150305-1207"/>
+
+   <plugin
+         id="de.dentrassi.pm.mail.service"
+         download-size="7"
+         install-size="9"
+         version="1.0.0.20150310-0909"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.mail.web"
+         download-size="11"
+         install-size="21"
+         version="1.0.0.20150310-0908"/>
+
+   <plugin
+         id="de.dentrassi.pm.core"
+         download-size="3"
+         install-size="2"
+         version="1.0.0.20150224-0955"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.core.web"
+         download-size="9"
+         install-size="16"
+         version="1.0.0.20150224-0955"/>
+
+   <plugin
+         id="de.dentrassi.pm.system"
+         download-size="13"
+         install-size="20"
+         version="1.0.0.20150305-1423"/>
+
+   <plugin
+         id="de.dentrassi.pm.sec.service.admin"
+         download-size="6"
+         install-size="9"
+         version="1.0.0.20150305-1207"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.sec.service.jpa"
+         download-size="26"
+         install-size="54"
+         version="1.0.0.20150305-1239"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.common.web"
+         download-size="815"
+         install-size="2076"
+         version="1.0.0.20150313-1151"/>
+
+   <plugin
+         id="de.dentrassi.pm.setup.web"
+         download-size="17"
+         install-size="30"
+         version="1.0.0.20150306-1136"/>
+
+   <plugin
+         id="de.dentrassi.pm.storage.service.jpa"
+         download-size="61"
+         install-size="169"
+         version="1.0.0.20150313-1335"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.core.jpa"
+         download-size="5"
+         install-size="8"
+         version="1.0.0.20150224-0955"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.osgi.scheduler"
+         download-size="3"
+         install-size="1"
+         version="1.0.0.20150224-0955"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.osgi.scheduler.simple"
+         download-size="8"
+         install-size="12"
+         version="1.0.0.20150224-0955"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.sec.service.core"
+         download-size="4"
+         install-size="3"
+         version="1.0.0.20150224-0955"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.aspect.cleanup"
+         download-size="17"
+         install-size="28"
+         version="1.0.0.20150312-1010"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.aspect.cleanup.web"
+         download-size="11"
+         install-size="25"
+         version="1.0.0.20150310-1105"/>
+
+   <plugin
+         id="de.dentrassi.pm.npm"
+         download-size="13"
+         install-size="20"
+         version="1.0.0.20150312-1010"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.utils.deb"
+         download-size="82"
+         install-size="151"
+         version="1.0.0.20150224-0955"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.deb"
+         download-size="44"
+         install-size="79"
+         version="1.0.0.20150313-1052"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.signing"
+         download-size="2"
+         install-size="1"
+         version="1.0.0.20150224-0955"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.signing.pgp"
+         download-size="9"
+         install-size="13"
+         version="1.0.0.20150224-0955"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.signing.pgp.web"
+         download-size="13"
+         install-size="22"
+         version="1.0.0.20150224-0955"/>
+
+   <plugin
+         id="de.dentrassi.pm.deb.web"
+         download-size="9"
+         install-size="18"
+         version="1.0.0.20150224-0955"/>
+
+   <plugin
+         id="de.dentrassi.osgi.job"
+         download-size="10"
+         install-size="14"
+         version="1.0.0.20150311-0821"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.osgi.job.web"
+         download-size="8"
+         install-size="12"
+         version="1.0.0.20150311-0821"/>
+
+   <plugin
+         id="de.dentrassi.pm.importer"
+         download-size="24"
+         install-size="44"
+         version="1.0.0.20150311-0821"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.importer.http"
+         download-size="7"
+         install-size="9"
+         version="1.0.0.20150311-0821"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.importer.http.web"
+         download-size="12"
+         install-size="19"
+         version="1.0.0.20150311-1615"/>
+
+   <plugin
+         id="de.dentrassi.osgi.job.jpa"
+         download-size="5"
+         install-size="7"
+         version="1.0.0.20150311-0821"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.osgi.job.service.jpa"
+         download-size="12"
+         install-size="24"
+         version="1.0.0.20150311-0821"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.external.maven"
+         download-size="690"
+         install-size="757"
+         version="1.0.0.20150306-1716"/>
+
+   <plugin
+         id="de.dentrassi.pm.importer.aether"
+         download-size="22"
+         install-size="44"
+         version="1.0.0.20150311-0821"/>
+
+   <plugin
+         id="org.eclipse.aether.api"
+         download-size="133"
+         install-size="277"
+         version="1.0.1.v20141111"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.aether.connector.basic"
+         download-size="35"
+         install-size="78"
+         version="1.0.1.v20141111"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.aether.impl"
+         download-size="168"
+         install-size="408"
+         version="1.0.1.v20141111"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.aether.spi"
+         download-size="30"
+         install-size="52"
+         version="1.0.1.v20141111"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.aether.transport.classpath"
+         download-size="8"
+         install-size="13"
+         version="1.0.1.v20141111"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.aether.transport.file"
+         download-size="8"
+         install-size="14"
+         version="1.0.1.v20141111"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.aether.transport.http"
+         download-size="34"
+         install-size="70"
+         version="1.0.1.v20141111"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.aether.util"
+         download-size="143"
+         install-size="285"
+         version="1.0.1.v20141111"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.todo"
+         download-size="11"
+         install-size="18"
+         version="1.0.0.20150223-1621"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.todo.web"
+         download-size="6"
+         install-size="9"
+         version="1.0.0.20150303-1422"/>
+
+   <plugin
+         id="de.dentrassi.pm.console"
+         download-size="5"
+         install-size="6"
+         version="1.0.0.20150225-1348"/>
+
+   <plugin
+         id="de.dentrassi.pm.unzip"
+         download-size="12"
+         install-size="25"
+         version="1.0.0.20150311-1439"
+         unpack="false"/>
+
+   <plugin
+         id="de.dentrassi.pm.system.web"
+         download-size="8"
+         install-size="15"
+         version="1.0.0.20150305-0909"/>
+
+</feature>

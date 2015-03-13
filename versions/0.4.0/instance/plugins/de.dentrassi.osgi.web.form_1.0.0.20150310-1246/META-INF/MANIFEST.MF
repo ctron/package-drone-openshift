@@ -7,8 +7,8 @@ Require-Bundle: org.hibernate.validator;bundle-version="5.1.3"
 Bundle-ManifestVersion: 2
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Eclipse-SourceReferences: scm:git:ssh://github.com/ctron/package-drone
- ;path="de.dentrassi.osgi.web.form";commitId=a1e3d3e6d5330abafda25e0f7
- da8f6a093e08135
+ ;path="de.dentrassi.osgi.web.form";commitId=959f53026bd3310a020c5ee83
+ 6f745c75104bee8
 Bundle-Vendor: Jens Reimann
 Import-Package: com.google.common.base;version="18.0.0",com.google.com
  mon.escape;version="18.0.0",com.google.common.html;version="18.0.0",d
