@@ -1,0 +1,63 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: de.dentrassi.pm.storage.web
+Archiver-Version: Plexus Archiver
+Web-Export-Taglib: WEB-INF/tags/storage/storage.tld
+Built-By: jens
+Require-Bundle: org.apache.taglibs.standard-impl;bundle-version="1.2.1
+ ",de.dentrassi.osgi.web;bundle-version="1.0.0",de.dentrassi.osgi.web.
+ form;bundle-version="1.0.0",de.dentrassi.pm.sec.web;bundle-version="1
+ .0.0",de.dentrassi.osgi.job.web;bundle-version="1.0.0"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Eclipse-SourceReferences: scm:git:ssh://github.com/ctron/package-drone
+ ;path="de.dentrassi.pm.storage.web";commitId=841e67f535586ed8596e5d80
+ d2e76069587350bf
+Bundle-Vendor: Jens Reimann
+Import-Package: com.google.common.io;version="18.0.0",com.google.gson;
+ version="2.3.1",de.dentrassi.osgi.job;version="1.0.0",de.dentrassi.pm
+ ;version="1.0.0",de.dentrassi.pm.aspect;version="1.0.0",de.dentrassi.
+ pm.aspect.group;version="1.0.0",de.dentrassi.pm.common;version="1.0.0
+ ",de.dentrassi.pm.common.service;version="1.0.0",de.dentrassi.pm.comm
+ on.utils;version="1.0.0",de.dentrassi.pm.common.web;version="1.0.0",d
+ e.dentrassi.pm.common.web.menu;version="1.0.0",de.dentrassi.pm.databa
+ se;version="1.0.0",de.dentrassi.pm.generator;version="1.0.0",de.dentr
+ assi.pm.importer;version="1.0.0",de.dentrassi.pm.importer.job;version
+ ="1.0.0",de.dentrassi.pm.importer.web;version="1.0.0",de.dentrassi.pm
+ .sec;version="1.0.0",de.dentrassi.pm.storage;version="1.0.0",de.dentr
+ assi.pm.storage.service;version="1.0.0",de.dentrassi.pm.storage.servi
+ ce.util;version="1.0.0",javax.el;version="3.0.0",javax.servlet;versio
+ n="3.1.0",javax.servlet.annotation;version="3.1.0",javax.servlet.http
+ ;version="3.1.0",javax.servlet.jsp;version="2.3.0",javax.servlet.jsp.
+ tagext;version="2.3.0",javax.validation;version="1.1.0",javax.validat
+ ion.bootstrap;version="1.1.0",javax.validation.constraints;version="1
+ .1.0",javax.validation.constraintvalidation;version="1.1.0",javax.val
+ idation.executable;version="1.1.0",javax.validation.groups;version="1
+ .1.0",javax.validation.metadata;version="1.1.0",javax.validation.spi;
+ version="1.1.0",org.apache.commons.fileupload;version="1.3.1",org.apa
+ che.commons.fileupload.disk;version="1.3.1",org.apache.commons.fileup
+ load.portlet;version="1.3.1",org.apache.commons.fileupload.servlet;ve
+ rsion="1.3.1",org.apache.commons.fileupload.util;version="1.3.1",org.
+ apache.commons.io;version="2.4.0",org.apache.commons.io.comparator;ve
+ rsion="2.4.0",org.apache.commons.io.filefilter;version="2.4.0",org.ap
+ ache.commons.io.input;version="2.4.0",org.apache.commons.io.monitor;v
+ ersion="2.4.0",org.apache.commons.io.output;version="2.4.0",org.apach
+ e.commons.logging;version="1.1.1",org.eclipse.scada.utils;version="0.
+ 2.0",org.hibernate.validator.constraints;version="5.1.3",org.jboss.lo
+ gging;version="3.1.3",org.osgi.framework;version="1.7.0",org.osgi.ser
+ vice.cm;version="1.4.0",org.osgi.service.jdbc;version="1.0.0",org.osg
+ i.util.tracker;version="1.5.1",org.slf4j;version="1.7.2"
+Service-Component: OSGI-INF/aboutMenu.xml,OSGI-INF/welcome.xml,OSGI-IN
+ F/commonInterceptor.xml,OSGI-INF/channel.xml,OSGI-INF/artifact.xml,OS
+ GI-INF/deployAuth.xml,OSGI-INF/imp.xml,OSGI-INF/globalController.xml
+Export-Package: de.dentrassi.pm.storage.web;version="1.0.0",de.dentras
+ si.pm.storage.web.breadcrumbs;version="1.0.0",de.dentrassi.pm.storage
+ .web.deploy;version="1.0.0",de.dentrassi.pm.storage.web.tags;version=
+ "1.0.0"
+Bundle-Name: Package Drone Web UI
+Bundle-Version: 1.0.0.20150320-1146
+Bundle-Activator: de.dentrassi.pm.storage.web.internal.Activator
+Created-By: Apache Maven 3.2.5
+Build-Jdk: 1.8.0_20
+Eclipse-BundleShape: dir
+
