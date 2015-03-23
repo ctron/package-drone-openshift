@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: de.dentrassi.osgi.job.web
+Archiver-Version: Plexus Archiver
+Web-Export-Taglib: META-INF/tags/jobs/jobs.tld
+Built-By: jens
+Require-Bundle: org.apache.taglibs.standard-impl;bundle-version="1.2.1
+ ",de.dentrassi.osgi.web;bundle-version="1.0.0",de.dentrassi.osgi.web.
+ form;bundle-version="1.0.0",de.dentrassi.pm.sec.web;bundle-version="1
+ .0.0"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Eclipse-SourceReferences: scm:git:ssh://github.com/ctron/package-drone
+ ;path="de.dentrassi.osgi.job.web";commitId=e2ddd6e7178130fc72052291da
+ 2433290942a574
+Bundle-Vendor: Jens Reimann
+Import-Package: de.dentrassi.osgi.job;version="1.0.0",de.dentrassi.pm.
+ sec;version="1.0.0",javax.servlet;version="3.1.0",javax.servlet.annot
+ ation;version="3.1.0",javax.servlet.http;version="3.1.0",org.eclipse.
+ scada.utils;version="0.2.0",org.osgi.framework;version="1.8.0",org.os
+ gi.util.tracker;version="1.5.1",org.slf4j;version="1.7.2"
+Service-Component: OSGI-INF/controller.xml
+Bundle-Name: Job Manager Web UI
+Bundle-Version: 1.0.0.20150320-1146
+Web-TagLib-Directory: /META-INF/tags/jobs
+Created-By: Apache Maven 3.2.5
+Build-Jdk: 1.8.0_20
+Eclipse-BundleShape: dir
+
