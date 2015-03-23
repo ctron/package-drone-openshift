@@ -9,8 +9,8 @@ Require-Bundle: org.apache.taglibs.standard-impl;bundle-version="1.2.1
 Bundle-ManifestVersion: 2
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Eclipse-SourceReferences: scm:git:ssh://github.com/ctron/package-drone
- ;path="de.dentrassi.pm.system.web";commitId=841e67f535586ed8596e5d80d
- 2e76069587350bf
+ ;path="de.dentrassi.pm.system.web";commitId=e2ddd6e7178130fc72052291d
+ a2433290942a574
 Bundle-Vendor: IBH SYSTEMS GmbH
 Import-Package: com.google.common.io;version="18.0.0",de.dentrassi.pm.
  common.web;version="1.0.0",de.dentrassi.pm.common.web.menu;version="1

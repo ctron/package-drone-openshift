@@ -9,8 +9,8 @@ Require-Bundle: org.apache.taglibs.standard-impl;bundle-version="1.2.1
 Bundle-ManifestVersion: 2
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Eclipse-SourceReferences: scm:git:ssh://github.com/ctron/package-drone
- ;path="de.dentrassi.pm.signing.pgp.web";commitId=841e67f535586ed8596e
- 5d80d2e76069587350bf
+ ;path="de.dentrassi.pm.signing.pgp.web";commitId=e2ddd6e7178130fc7205
+ 2291da2433290942a574
 Bundle-Vendor: Jens Reimann
 Import-Package: de.dentrassi.pm.sec;version="1.0.0",de.dentrassi.pm.si
  gning;version="1.0.0",de.dentrassi.pm.signing.pgp;version="1.0.0",jav
