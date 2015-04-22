@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: de.dentrassi.pm.maven.web
+Archiver-Version: Plexus Archiver
+Built-By: jens
+Require-Bundle: org.apache.taglibs.standard-impl;bundle-version="1.2.1
+ ",de.dentrassi.osgi.web;bundle-version="1.0.0",de.dentrassi.osgi.web.
+ form;bundle-version="1.0.0",de.dentrassi.pm.storage.web;bundle-versio
+ n="0.0.7"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Eclipse-SourceReferences: scm:git:ssh://github.com/ctron/package-drone
+ ;path="de.dentrassi.pm.maven.web";commitId=a7fb94a8b3f0d00006cd68748e
+ 801cc7c04faa4d
+Bundle-Vendor: IBH SYSTEMS GmbH
+Import-Package: de.dentrassi.pm.common.web;version="1.0.0",de.dentrass
+ i.pm.common.web.menu;version="1.0.0",de.dentrassi.pm.common.web.tags;
+ version="1.0.0",de.dentrassi.pm.sec;version="1.0.0",de.dentrassi.pm.s
+ ec.web.controller;version="1.0.0",de.dentrassi.pm.sec.web.filter;vers
+ ion="1.0.0",de.dentrassi.pm.storage;version="1.0.0",javax.servlet;ver
+ sion="3.1.0",javax.servlet.annotation;version="3.1.0",javax.servlet.h
+ ttp;version="3.1.0",javax.validation;version="1.1.0",javax.validation
+ .constraints;version="1.1.0",org.eclipse.scada.utils;version="0.2.0",
+ org.osgi.framework;version="1.8.0",org.osgi.service.cm;version="1.5.0
+ ",org.osgi.util.tracker;version="1.5.1",org.slf4j;version="1.7.2"
+Service-Component: OSGI-INF/controller.xml
+Bundle-Name: WebUI for Maven Adapter
+Bundle-Version: 1.0.0.20150422-0911
+Created-By: Apache Maven 3.2.5
+Build-Jdk: 1.8.0_20
+Eclipse-BundleShape: dir
+

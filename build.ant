@@ -25,7 +25,7 @@
           target: unpack
          ================================= -->
     <target name="unpack">
-        <makeVersion version="0.6.0"/>
+        <makeVersion version="0.7.0"/>
     </target>
 	
 	<!-- = = = = = = = = = = = = = = = = =
