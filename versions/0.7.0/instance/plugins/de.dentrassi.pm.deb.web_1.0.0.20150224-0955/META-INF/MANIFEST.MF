@@ -8,8 +8,8 @@ Require-Bundle: org.apache.taglibs.standard-impl;bundle-version="1.2.1
 Bundle-ManifestVersion: 2
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Eclipse-SourceReferences: scm:git:ssh://github.com/ctron/package-drone
- ;path="de.dentrassi.pm.deb.web";commitId=a7fb94a8b3f0d00006cd68748e80
- 1cc7c04faa4d
+ ;path="de.dentrassi.pm.deb.web";commitId=b647cf2a9896ffb356717b30e488
+ 1c6e12a38e22
 Bundle-Vendor: Jens Reimann
 Import-Package: de.dentrassi.osgi.web;version="1.0.0",de.dentrassi.osg
  i.web.controller;version="1.0.0",de.dentrassi.osgi.web.controller.bin
@@ -31,6 +31,6 @@ Service-Component: OSGI-INF/controller.xml
 Bundle-Name: Web UI for DEB and APT
 Bundle-Version: 1.0.0.20150224-0955
 Created-By: Apache Maven 3.2.5
-Build-Jdk: 1.8.0_20
+Build-Jdk: 1.8.0_45
 Eclipse-BundleShape: dir
 

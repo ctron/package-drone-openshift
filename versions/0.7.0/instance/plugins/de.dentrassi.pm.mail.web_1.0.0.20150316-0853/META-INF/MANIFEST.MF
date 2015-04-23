@@ -9,8 +9,8 @@ Require-Bundle: org.apache.taglibs.standard-impl;bundle-version="1.2.1
 Bundle-ManifestVersion: 2
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Eclipse-SourceReferences: scm:git:ssh://github.com/ctron/package-drone
- ;path="de.dentrassi.pm.mail.web";commitId=a7fb94a8b3f0d00006cd68748e8
- 01cc7c04faa4d
+ ;path="de.dentrassi.pm.mail.web";commitId=b647cf2a9896ffb356717b30e48
+ 81c6e12a38e22
 Bundle-Vendor: Jens Reimann
 Import-Package: de.dentrassi.pm.common.web;version="1.0.0",de.dentrass
  i.pm.common.web.menu;version="1.0.0",de.dentrassi.pm.common.web.tags;
@@ -28,6 +28,6 @@ Service-Component: OSGI-INF/config.xml,OSGI-INF/tasks.xml
 Bundle-Name: Mail Web UI
 Bundle-Version: 1.0.0.20150316-0853
 Created-By: Apache Maven 3.2.5
-Build-Jdk: 1.8.0_20
+Build-Jdk: 1.8.0_45
 Eclipse-BundleShape: dir
 

@@ -8,8 +8,8 @@ Bundle-ManifestVersion: 2
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
 Eclipse-SourceReferences: scm:git:ssh://github.com/ctron/package-drone
- ;path="de.dentrassi.pm.p2";commitId=a7fb94a8b3f0d00006cd68748e801cc7c
- 04faa4d
+ ;path="de.dentrassi.pm.p2";commitId=b647cf2a9896ffb356717b30e4881c6e1
+ 2a38e22
 Bundle-Vendor: Jens Reimann
 Import-Package: com.google.common.escape;version="18.0.0",com.google.c
  ommon.html;version="18.0.0",com.google.common.io;version="18.0.0",com
@@ -33,6 +33,6 @@ Bundle-Name: P2 Adapter
 Bundle-Version: 1.0.0.20150421-1452
 Web-ContextPath: /p2
 Created-By: Apache Maven 3.2.5
-Build-Jdk: 1.8.0_20
+Build-Jdk: 1.8.0_45
 Eclipse-BundleShape: dir
 
