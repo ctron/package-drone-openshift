@@ -2,7 +2,7 @@
 <feature
       id="de.dentrassi.pm"
       label="Package Drone Main Feature"
-      version="0.7.0.20150423-1308"
+      version="0.7.0.20150423-1513"
       provider-name="Jens Reimann">
 
    <description url="http://packagedrone.org">
@@ -685,7 +685,7 @@
          id="de.dentrassi.pm.database"
          download-size="43"
          install-size="84"
-         version="1.0.0.20150422-1331"
+         version="1.0.0.20150423-1436"
          unpack="false"/>
 
    <plugin
@@ -803,7 +803,7 @@
          id="de.dentrassi.pm.storage.service.jpa"
          download-size="93"
          install-size="243"
-         version="1.0.0.20150422-1331"
+         version="1.0.0.20150423-1513"
          unpack="false"/>
 
    <plugin
