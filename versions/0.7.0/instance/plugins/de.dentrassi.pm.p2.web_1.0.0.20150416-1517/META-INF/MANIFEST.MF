@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: de.dentrassi.pm.p2.web
+Archiver-Version: Plexus Archiver
+Built-By: jens
+Require-Bundle: org.apache.taglibs.standard-impl;bundle-version="1.2.1
+ ",de.dentrassi.osgi.web.form;bundle-version="1.0.0",de.dentrassi.pm.s
+ torage.web;bundle-version="0.0.7"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Eclipse-SourceReferences: scm:git:ssh://github.com/ctron/package-drone
+ ;path="de.dentrassi.pm.p2.web";commitId=90049a318899c6846c04c8e67e89f
+ a8b7c975622
+Bundle-Vendor: Jens Reimann
+Import-Package: de.dentrassi.osgi.web;version="1.0.0",de.dentrassi.osg
+ i.web.controller;version="1.0.0",de.dentrassi.osgi.web.controller.bin
+ ding;version="1.0.0",de.dentrassi.osgi.web.controller.form;version="1
+ .0.0",de.dentrassi.pm.common;version="1.0.0",de.dentrassi.pm.common.w
+ eb;version="1.0.0",de.dentrassi.pm.common.web.menu;version="1.0.0",de
+ .dentrassi.pm.p2.aspect;version="1.0.0",de.dentrassi.pm.sec;version="
+ 1.0.0",de.dentrassi.pm.sec.web.controller;version="1.0.0",de.dentrass
+ i.pm.storage;version="1.0.0",de.dentrassi.pm.storage.service;version=
+ "1.0.0",javax.servlet;version="3.1.0",javax.servlet.annotation;versio
+ n="3.1.0",javax.servlet.http;version="3.1.0",javax.servlet.jsp;versio
+ n="2.3.0",javax.servlet.jsp.tagext;version="2.3.0",javax.validation;v
+ ersion="1.1.0.Final",org.eclipse.scada.utils.str;version="0.2.0"
+Service-Component: OSGI-INF/interfaceExtender.xml,OSGI-INF/p2.xml
+Bundle-Name: Web UI for P2 Adapter
+Bundle-Version: 1.0.0.20150416-1517
+Created-By: Apache Maven 3.2.5
+Build-Jdk: 1.8.0_45
+Eclipse-BundleShape: dir
+
