@@ -18,14 +18,14 @@
          ================================= -->
     <target name="download">
         <mkdir dir="download"/>
-        <get src="https://github.com/ctron/package-drone/releases/download/v0.7.2/package-drone-server-0.7.2.zip" dest="download/package-drone-server-0.7.2.zip" usetimestamp="true"/>
+        <get src="https://github.com/ctron/package-drone/releases/download/v0.7.3/package-drone-server-0.7.3.zip" dest="download/package-drone-server-0.7.3.zip" usetimestamp="true"/>
     </target>
 	
     <!-- ================================= 
           target: unpack
          ================================= -->
     <target name="unpack">
-        <makeVersion version="0.7.2"/>
+        <makeVersion version="0.7.3"/>
     </target>
 	
 	<!-- = = = = = = = = = = = = = = = = =
