@@ -18,7 +18,7 @@
          ================================= -->
     <target name="download">
         <mkdir dir="download"/>
-        <download.version version="0.8.0"/>
+        <download.version version="0.8.1"/>
     </target>
 	
 	<!-- = = = = = = = = = = = = = = = = =
@@ -35,7 +35,7 @@
           target: unpack
          ================================= -->
     <target name="unpack">
-        <makeVersion version="0.8.0"/>
+        <makeVersion version="0.8.1"/>
     </target>
 	
 	<!-- = = = = = = = = = = = = = = = = =

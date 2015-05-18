@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: de.dentrassi.pm.storage.web.description
+Archiver-Version: Plexus Archiver
+Built-By: jens
+Require-Bundle: org.apache.taglibs.standard-impl;bundle-version="1.2.1
+ ",de.dentrassi.osgi.web;bundle-version="1.0.0",de.dentrassi.osgi.web.
+ form;bundle-version="1.0.0",de.dentrassi.pm.sec.web;bundle-version="1
+ .0.0",de.dentrassi.pm.storage.web;bundle-version="1.0.0",de.dentrassi
+ .pm.common.web.ckeditor;bundle-version="1.0.0"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Eclipse-SourceReferences: scm:git:ssh://github.com/ctron/package-drone
+ ;path="de.dentrassi.pm.storage.web.description";commitId=7e8814e991d3
+ dba82eacf75b33a143917cbc5228
+Bundle-Vendor: IBH SYSTEMS GmbH
+Import-Package: de.dentrassi.pm.common;version="1.0.0",de.dentrassi.pm
+ .common.web;version="1.0.0",de.dentrassi.pm.common.web.menu;version="
+ 1.0.0",de.dentrassi.pm.sec;version="1.0.0",de.dentrassi.pm.storage;ve
+ rsion="1.0.0",de.dentrassi.pm.storage.service;version="1.0.0",javax.e
+ l;version="3.0.0",javax.servlet;version="3.1.0",javax.servlet.annotat
+ ion;version="3.1.0",javax.servlet.http;version="3.1.0",javax.servlet.
+ jsp;version="2.3.0",javax.servlet.jsp.tagext;version="2.3.0"
+Service-Component: OSGI-INF/controller.xml
+Bundle-Name: Channel Description View
+Bundle-Version: 1.0.0.20150423-0820
+Created-By: Apache Maven 3.2.5
+Build-Jdk: 1.8.0_45
+Eclipse-BundleShape: dir
+
