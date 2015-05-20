@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1432122113436" transient="false">
+	<site updateable="true" url="platform:/base/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="de.dentrassi.pm.root" version="1.0.0.20150504-1750" url="features/de.dentrassi.pm.root_1.0.0.20150504-1750/">
+		</feature>
+		<feature id="de.dentrassi.pm" version="0.9.0.20150520-1126" url="features/de.dentrassi.pm_0.9.0.20150520-1126/">
+		</feature>
+	</site>
+</config>
