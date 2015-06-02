@@ -1,0 +1,57 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: de.dentrassi.osgi.web
+Archiver-Version: Plexus Archiver
+Web-Export-Taglib: META-INF/web.tld
+Built-By: jens
+Require-Bundle: org.mortbay.jasper.apache-el;bundle-version="8.0.9";vi
+ sibility:=reexport,org.mortbay.jasper.apache-jsp;bundle-version="8.0.
+ 9";visibility:=reexport
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Eclipse-SourceReferences: scm:git:ssh://github.com/ctron/package-drone
+ ;path="de.dentrassi.osgi.web";commitId=878c96f692fafe5ec92c7a518457b2
+ 78fd95ff4b
+Bundle-Vendor: Jens Reimann
+Import-Package: com.google.common.io;version="18.0.0",com.google.gson;
+ version="2.3.1",de.dentrassi.osgi.converter;version="1.0.0",de.dentra
+ ssi.osgi.utils;version="1.0.0",de.dentrassi.osgi.validation;version="
+ 1.0.0",javax.servlet;version="3.1.0",javax.servlet.annotation;version
+ ="3.1.0",javax.servlet.descriptor;version="3.1.0",javax.servlet.http;
+ version="3.1.0",javax.validation;version="1.1.0",javax.validation.boo
+ tstrap;version="1.1.0.Final",javax.validation.constraints;version="1.
+ 1.0.Final",javax.validation.constraintvalidation;version="1.1.0.Final
+ ",javax.validation.executable;version="1.1.0.Final",javax.validation.
+ groups;version="1.1.0.Final",javax.validation.metadata;version="1.1.0
+ .Final",org.eclipse.jetty.server.handler;version="9.2.5",org.eclipse.
+ jetty.servlet;version="9.2.5",org.eclipse.jetty.util;version="9.2.5",
+ org.eclipse.jetty.util.component;version="9.2.5",org.eclipse.jetty.ut
+ il.resource;version="9.2.5",org.eclipse.jetty.webapp;version="9.2.5",
+ org.eclipse.scada.utils;version="0.2.0",org.eclipse.scada.utils.str;v
+ ersion="0.2.0",org.osgi.framework;version="1.8.0",org.osgi.util.track
+ er;version="1.5.1",org.slf4j;version="1.7.2"
+Export-Package: de.dentrassi.osgi.web;version="1.0.0"; uses:="javax.se
+ rvlet,  org.eclipse.scada.utils.str,  javax.servlet.http,  javax.serv
+ let.jsp",de.dentrassi.osgi.web.controller;version="1.0.0"; uses:="org
+ .osgi.framework,  javax.servlet.http,  de.dentrassi.osgi.web,  de.den
+ trassi.osgi.web.controller.routing",de.dentrassi.osgi.web.controller.
+ binding;version="1.0.0"; uses:="javax.servlet.http,  de.dentrassi.osg
+ i.web,  de.dentrassi.osgi.converter,  de.dentrassi.osgi.web.controlle
+ r.routing,  de.dentrassi.osgi.web.controller.validator",de.dentrassi.
+ osgi.web.controller.form;version="1.0.0";uses:="de.dentrassi.osgi.web
+ .controller.binding,javax.servlet.http,de.dentrassi.osgi.converter",d
+ e.dentrassi.osgi.web.controller.routing;version="1.0.0";uses:="javax.
+ servlet.http",de.dentrassi.osgi.web.controller.validator;version="1.0
+ .0";uses:="de.dentrassi.osgi.web.controller.binding,javax.validation"
+ ,de.dentrassi.osgi.web.extender;version="1.0.0";uses:="org.osgi.frame
+ work,javax.servlet.http",de.dentrassi.osgi.web.interceptor;version="1
+ .0.0";uses:="org.osgi.framework,javax.servlet.http,de.dentrassi.osgi.
+ web",de.dentrassi.osgi.web.tags;version="1.0.0";uses:="javax.servlet.
+ http,javax.servlet.jsp.tagext",de.dentrassi.osgi.web.util;version="1.
+ 0.0";uses:="javax.servlet.http"
+Bundle-Name: OSGi Web Tools
+Bundle-Version: 1.0.0.20150518-1432
+Created-By: Apache Maven 3.3.3
+Build-Jdk: 1.8.0_25
+Eclipse-BundleShape: dir
+

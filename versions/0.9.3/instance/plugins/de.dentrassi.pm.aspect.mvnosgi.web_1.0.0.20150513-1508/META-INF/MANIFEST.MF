@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: de.dentrassi.pm.aspect.mvnosgi.web
+Archiver-Version: Plexus Archiver
+Built-By: jens
+Require-Bundle: org.apache.taglibs.standard-impl;bundle-version="1.2.1
+ ",de.dentrassi.osgi.web.form;bundle-version="1.0.0",de.dentrassi.pm.s
+ torage.web;bundle-version="0.1.0"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Eclipse-SourceReferences: scm:git:ssh://github.com/ctron/package-drone
+ ;path="de.dentrassi.pm.aspect.mvnosgi.web";commitId=878c96f692fafe5ec
+ 92c7a518457b278fd95ff4b
+Bundle-Vendor: Markus Rathgeb
+Import-Package: de.dentrassi.osgi.web;version="1.0.0",de.dentrassi.osg
+ i.web.controller;version="1.0.0",de.dentrassi.osgi.web.controller.bin
+ ding;version="1.0.0",de.dentrassi.osgi.web.controller.form;version="1
+ .0.0",de.dentrassi.osgi.web.interceptor;version="1.0.0",de.dentrassi.
+ pm.common;version="1.0.0",de.dentrassi.pm.common.web;version="1.0.0",
+ de.dentrassi.pm.common.web.menu;version="1.0.0",de.dentrassi.pm.sec;v
+ ersion="1.0.0",de.dentrassi.pm.sec.web.controller;version="1.0.0",de.
+ dentrassi.pm.storage;version="1.0.0",de.dentrassi.pm.storage.service;
+ version="1.0.0",javax.servlet;version="3.1.0",javax.servlet.annotatio
+ n;version="3.1.0",javax.servlet.http;version="3.1.0",javax.servlet.js
+ p;version="2.3.0",javax.servlet.jsp.el;version="2.3.0",javax.servlet.
+ jsp.tagext;version="2.3.0",javax.validation;version="1.1.0.Final"
+Service-Component: OSGI-INF/controller.xml
+Bundle-Name: Maven OSGi Channel Aspect Web UI
+Bundle-Version: 1.0.0.20150513-1508
+Created-By: Apache Maven 3.3.3
+Build-Jdk: 1.8.0_25
+Eclipse-BundleShape: dir
+
