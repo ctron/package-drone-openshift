@@ -8,7 +8,7 @@ if isrunning; then
     echo "Instance already running (other: $pid)"
 fi
 
-JAVA_OPTS="$JAVA_OPTS -Dorg.osgi.service.http.host=${OPENSHIFT_PDRONE_IP}"
+JAVA_OPTS="$JAVA_OPTS -Dorg.ops4j.pax.web.listening.addresses=${OPENSHIFT_PDRONE_IP}"
 JAVA_OPTS="$JAVA_OPTS -Dorg.osgi.service.http.port=${OPENSHIFT_PDRONE_HTTP_PORT}"
 
 export JAVA_OPTS
