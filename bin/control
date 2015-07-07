@@ -18,9 +18,11 @@ function nyi {
 
 function start {
     if ! isrunning; then
+        echo "Starting server instance..."
         ${OPENSHIFT_PDRONE_DIR}/bin/run |& /usr/bin/logshifter -tag pdrone &
     fi
     
+    echo "Waiting for server to come up..."
     waithttpup
     waitdeploy
 }
