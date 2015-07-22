@@ -24,6 +24,7 @@ function start {
     
     echo "Waiting for server to come up..."
     waithttpup
+    echo "Waiting for deployment to settle..."
     waitdeploy
 }
 
