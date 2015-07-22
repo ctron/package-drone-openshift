@@ -3,7 +3,7 @@ Cartridge-Short-Name: PDRONE
 Display-Name: Package Drone 0.10.2
 Description: "Package Drone Server instance"
 Architecture: noarch
-Version: '0.10.0'
+Version: '0.10.2'
 Versions:
  - '0.7.3'
  - '0.9.3'
