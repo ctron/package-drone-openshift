@@ -9,8 +9,8 @@ Bundle-ManifestVersion: 2
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
 Eclipse-SourceReferences: scm:git:ssh://github.com/ctron/package-drone
- ;path="de.dentrassi.pm.generator.p2";commitId=afc149a321fa4aa84c50610
- 545fda0692d19232d
+ ;path="de.dentrassi.pm.generator.p2";commitId=d28059b9faf8e99f62d5197
+ da69d2346316227e1
 Bundle-Vendor: Jens Reimann
 Import-Package: com.google.gson;version="2.3.1",de.dentrassi.osgi.vali
  dation.constraints;version="1.0.0",de.dentrassi.osgi.web;version="1.0

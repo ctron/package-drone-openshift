@@ -395,6 +395,12 @@ repositories/file\:_home_jens_Development_workspace_opm_pkgrepo_de.dentrassi.pm.
 repositories/file\:_home_jens_Development_workspace_opm_pkgrepo_de.dentrassi.pm.sec_target/provider=
 repositories/file\:_home_jens_Development_workspace_opm_pkgrepo_de.dentrassi.pm.sec_target/suffix=p2artifacts.xml
 repositories/file\:_home_jens_Development_workspace_opm_pkgrepo_de.dentrassi.pm.sec_target/uri=file\:/home/jens/Development/workspace_opm/pkgrepo/de.dentrassi.pm.sec/target/
+repositories/file\:_home_jens_Development_workspace_opm_pkgrepo_de.dentrassi.pm.setup.web_target/description=
+repositories/file\:_home_jens_Development_workspace_opm_pkgrepo_de.dentrassi.pm.setup.web_target/enabled=true
+repositories/file\:_home_jens_Development_workspace_opm_pkgrepo_de.dentrassi.pm.setup.web_target/isSystem=false
+repositories/file\:_home_jens_Development_workspace_opm_pkgrepo_de.dentrassi.pm.setup.web_target/provider=
+repositories/file\:_home_jens_Development_workspace_opm_pkgrepo_de.dentrassi.pm.setup.web_target/suffix=p2artifacts.xml
+repositories/file\:_home_jens_Development_workspace_opm_pkgrepo_de.dentrassi.pm.setup.web_target/uri=file\:/home/jens/Development/workspace_opm/pkgrepo/de.dentrassi.pm.setup.web/target/
 repositories/file\:_home_jens_Development_workspace_opm_pkgrepo_de.dentrassi.pm.signing.pgp.web_target/description=
 repositories/file\:_home_jens_Development_workspace_opm_pkgrepo_de.dentrassi.pm.signing.pgp.web_target/enabled=true
 repositories/file\:_home_jens_Development_workspace_opm_pkgrepo_de.dentrassi.pm.signing.pgp.web_target/isSystem=false
