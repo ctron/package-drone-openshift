@@ -8,8 +8,11 @@ if isrunning; then
     echo "Instance already running (other: $pid)"
 fi
 
-JAVA_OPTS="$JAVA_OPTS -Djetty.host=${OPENSHIFT_PDRONE_IP}"
-JAVA_OPTS="$JAVA_OPTS -Djetty.port=${OPENSHIFT_PDRONE_HTTP_PORT}"
+JAVA_OPTS="$JAVA_OPTS -Dorg.ops4j.pax.web.listening.addresses=${OPENSHIFT_PDRONE_IP}"
+JAVA_OPTS="$JAVA_OPTS -Dorg.osgi.service.http.port=${OPENSHIFT_PDRONE_HTTP_PORT}"
+
+JAVA_OPTS="$JAVA_OPTS -Ddrone.storage.base=${OPENSHIFT_DATA_DIR}/storage"
+JAVA_OPTS="$JAVA_OPTS -Dfelix.cm.dir=${OPENSHIFT_DATA_DIR}/cm"
 
 export JAVA_OPTS
 echo "Start with options: $JAVA_OPTS"

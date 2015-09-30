@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1443602411011" transient="false">
+	<site updateable="true" url="platform:/base/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="de.dentrassi.pm" version="0.11.0.20150922-0828" url="features/de.dentrassi.pm_0.11.0.20150922-0828/">
+		</feature>
+		<feature id="de.dentrassi.pm.patched" version="1.0.0.20150724-0806" url="features/de.dentrassi.pm.patched_1.0.0.20150724-0806/">
+		</feature>
+		<feature id="de.dentrassi.pm.root" version="1.0.0.20150921-1015" url="features/de.dentrassi.pm.root_1.0.0.20150921-1015/">
+		</feature>
+	</site>
+</config>

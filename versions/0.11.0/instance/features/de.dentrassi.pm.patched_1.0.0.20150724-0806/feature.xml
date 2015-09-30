@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="de.dentrassi.pm.patched"
+      label="Feature with patched external dependencies"
+      version="1.0.0.20150724-0806">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <plugin
+         id="org.apache.jasper.glassfish"
+         download-size="641"
+         install-size="1583"
+         version="2.2.2.20150626-0823"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.jsp.jasper"
+         download-size="22"
+         install-size="36"
+         version="1.0.500.20150724-0806"/>
+
+</feature>
