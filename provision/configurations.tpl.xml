@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration version="1">
-  <entry pid="de.dentrassi.pm.mail.service.default">
+  <entry pid="org.eclipse.packagedrone.mail.default">
     <property key="from" type="java.lang.String">drone@<%= ENV['OPENSHIFT_GEAR_DNS'] %></property>
     <property key="prefix" type="java.lang.String">[Package Drone]</property>
     <property key="properties.mail.smtp.host" type="java.lang.String">localhost</property>
