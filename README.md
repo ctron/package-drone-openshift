@@ -34,7 +34,7 @@ https://raw.githubusercontent.com/ctron/package-drone-openshift/master/metadata/
 
 ## Credentials
 
-Package Drone always has an adminstrator user (called `admin`) with a generated password. Normally this password changes with each startup, but for
+Package Drone always has an administrator user (called `admin`) with a generated password. Normally this password changes with each startup, but for
 OpenShift there is new password created for each installation. This password is printed out in the result of the application creation:
 
 ```
