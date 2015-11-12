@@ -11,8 +11,8 @@ Bundle-ManifestVersion: 2
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
 Eclipse-SourceReferences: scm:git:ssh://github.com/ctron/package-drone
- ;path="bundles/org.eclipse.packagedrone.job.web";commitId=f26b1eb0839
- 1506d6e5245102b9f6a64f9851aca
+ ;path="bundles/org.eclipse.packagedrone.job.web";commitId=09b5864b85b
+ 869f305ec2c963f2b8e85f5bc5cdb
 Bundle-Vendor: Jens Reimann
 Import-Package: javax.servlet;version="3.1.0",javax.servlet.annotation
  ;version="3.1.0",javax.servlet.http;version="3.1.0",javax.servlet.jsp
@@ -26,6 +26,6 @@ Bundle-Name: Job Manager Web UI
 Bundle-Version: 1.0.0.20151009-0817
 Web-TagLib-Directory: /META-INF/tags/jobs
 Created-By: Apache Maven 3.2.5
-Build-Jdk: 1.8.0_45
+Build-Jdk: 1.8.0_60
 Eclipse-BundleShape: dir
 

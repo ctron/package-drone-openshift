@@ -27,7 +27,7 @@
     <macrodef name="download.version">
         <attribute name="version" />
         <sequential>
-        	<get src="https://github.com/ctron/package-drone/releases/download/v@{version}/package-drone-server-@{version}.zip" dest="download/package-drone-server-@{version}.zip" usetimestamp="true"/>
+        	<get src="https://github.com/ctron/package-drone/releases/download/v@{version}/org.eclipse.packagedrone.server-@{version}.zip" dest="download/org.eclipse.packagedrone.server-@{version}.zip" usetimestamp="true"/>
         </sequential>
     </macrodef>
 	
@@ -47,7 +47,7 @@
             <mkdir dir="versions/@{version}/instance"/>
             <exec dir="versions/@{version}/instance" executable="unzip">
                <arg value="-o"/>
-               <arg file="download/package-drone-server-@{version}.zip"/>
+               <arg file="download/org.eclipse.packagedrone.server-@{version}.zip"/>
             </exec>
         </sequential>
     </macrodef>

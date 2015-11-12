@@ -7,8 +7,8 @@ Bundle-ManifestVersion: 2
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
 Eclipse-SourceReferences: scm:git:ssh://github.com/ctron/package-drone
- ;path="bundles/org.eclipse.packagedrone.web";commitId=f26b1eb08391506
- d6e5245102b9f6a64f9851aca
+ ;path="bundles/org.eclipse.packagedrone.web";commitId=09b5864b85b869f
+ 305ec2c963f2b8e85f5bc5cdb
 Bundle-Vendor: Jens Reimann
 Import-Package: com.google.common.escape;version="18.0.0",com.google.c
  ommon.io;version="18.0.0",com.google.common.net;version="18.0.0",com.
@@ -52,6 +52,6 @@ Export-Package: org.eclipse.packagedrone.web;version="1.0.0"; uses:="j
 Bundle-Name: OSGi Web Tools
 Bundle-Version: 1.0.0.20151015-1029
 Created-By: Apache Maven 3.2.5
-Build-Jdk: 1.8.0_45
+Build-Jdk: 1.8.0_60
 Eclipse-BundleShape: dir
 

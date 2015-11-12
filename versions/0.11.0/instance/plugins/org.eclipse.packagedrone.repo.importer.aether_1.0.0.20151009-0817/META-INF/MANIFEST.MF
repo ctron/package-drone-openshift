@@ -12,7 +12,7 @@ Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
 Eclipse-SourceReferences: scm:git:ssh://github.com/ctron/package-drone
  ;path="bundles/org.eclipse.packagedrone.repo.importer.aether";commitI
- d=f26b1eb08391506d6e5245102b9f6a64f9851aca
+ d=09b5864b85b869f305ec2c963f2b8e85f5bc5cdb
 Bundle-Vendor: Jens Reimann
 Import-Package: com.google.gson;version="2.3.0",javax.servlet;version=
  "3.1.0",javax.servlet.annotation;version="3.1.0",javax.servlet.http;v
@@ -41,6 +41,6 @@ Service-Component: OSGI-INF/aether.xml,OSGI-INF/controller.xml,OSGI-IN
 Bundle-Name: Aether Importer
 Bundle-Version: 1.0.0.20151009-0817
 Created-By: Apache Maven 3.2.5
-Build-Jdk: 1.8.0_45
+Build-Jdk: 1.8.0_60
 Eclipse-BundleShape: dir
 
