@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1447072166113" transient="false">
+	<site updateable="true" url="platform:/base/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="org.eclipse.packagedrone.utils" version="1.0.0.20151015-1344" url="features/org.eclipse.packagedrone.utils_1.0.0.20151015-1344/">
+		</feature>
+		<feature id="org.eclipse.packagedrone.product.server.root" version="1.0.0.20151009-0817" url="features/org.eclipse.packagedrone.product.server.root_1.0.0.20151009-0817/">
+		</feature>
+		<feature id="org.eclipse.packagedrone.product.server" version="0.11.0.20151109-1213" url="features/org.eclipse.packagedrone.product.server_0.11.0.20151109-1213/" plugin-identifier="org.eclipse.packagedrone">
+		</feature>
+		<feature id="org.eclipse.packagedrone.external" version="1.0.0.20151009-0817" url="features/org.eclipse.packagedrone.external_1.0.0.20151009-0817/">
+		</feature>
+		<feature id="org.eclipse.packagedrone.runtime" version="1.0.0.20151012-1423" url="features/org.eclipse.packagedrone.runtime_1.0.0.20151012-1423/">
+		</feature>
+		<feature id="org.eclipse.packagedrone.web" version="1.0.0.20151109-1213" url="features/org.eclipse.packagedrone.web_1.0.0.20151109-1213/">
+		</feature>
+	</site>
+</config>

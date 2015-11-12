@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration version="1">
-  <entry pid="de.dentrassi.pm.mail.service.default">
+  <entry pid="org.eclipse.packagedrone.mail.default">
     <property key="from" type="java.lang.String">drone@<%= ENV['OPENSHIFT_GEAR_DNS'] %></property>
     <property key="prefix" type="java.lang.String">[Package Drone]</property>
     <property key="properties.mail.smtp.host" type="java.lang.String">localhost</property>
     <property key="properties.mail.transport.protocol" type="java.lang.String">smtp</property>
-  </entry>
-  <entry pid="package.drone.database">
-    <property key="javax.persistence.jdbc.driver" type="java.lang.String">com.mysql.jdbc.Driver</property>
-    <property key="javax.persistence.jdbc.password" type="java.lang.String"><![CDATA[<%= ENV['OPENSHIFT_MYSQL_DB_PASSWORD'] %>]]></property>
-    <property key="javax.persistence.jdbc.url" type="java.lang.String">jdbc:mysql://<%= ENV['OPENSHIFT_MYSQL_DB_HOST'] %>:<%= ENV['OPENSHIFT_MYSQL_DB_PORT'] %>/<%= ENV['OPENSHIFT_PDRONE_DB_NAME'] %></property>
-    <property key="javax.persistence.jdbc.user" type="java.lang.String"><![CDATA[<%= ENV['OPENSHIFT_MYSQL_DB_USERNAME'] %>]]></property>
   </entry>
 </configuration>

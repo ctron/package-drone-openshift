@@ -1,11 +1,10 @@
 Name: package-drone-server
 Cartridge-Short-Name: PDRONE
-Display-Name: Package Drone 0.10.2
+Display-Name: Package Drone 0.11.0
 Description: "Package Drone Server instance"
 Architecture: noarch
-Version: '0.10.2'
+Version: '0.11.0'
 Versions:
- - '0.7.3'
  - '0.9.3'
  - '0.10.2'
 License: "EPL"
@@ -16,7 +15,7 @@ Help-Topics:
     "Documentation": http://doc.packagedrone.org/book/
     "Wiki": https://github.com/ctron/package-drone/wiki/
 Vendor: IBH SYSTEMS GmbH
-Cartridge-Version: '0.1.4'
+Cartridge-Version: '0.2.0'
 Cartridge-Vendor: ctron
 Scaling:
  Min: 1
@@ -28,8 +27,6 @@ Cart-Data:
 - Key: adminToken
   Type: cart_data
   Description: The password of the admin user
-Requires:
- - mysql-5.5
 Provides:
  - package-drone-server
 Publishes:

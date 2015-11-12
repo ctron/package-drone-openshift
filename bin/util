@@ -8,7 +8,7 @@ export JAVA_HOME=/etc/alternatives/jre_1.8.0
 
 PDRONE_PID_FILE=${OPENSHIFT_HOMEDIR}/app-root/runtime/pdrone.pid
 
-PDRONE_PROV_URL=http://${OPENSHIFT_PDRONE_IP}:${OPENSHIFT_PDRONE_HTTP_PORT}/system/backup/provisionWithSchema
+PDRONE_PROV_URL=http://${OPENSHIFT_PDRONE_IP}:${OPENSHIFT_PDRONE_HTTP_PORT}/system/backup/provision
 PDRONE_TEST_URL=http://${OPENSHIFT_PDRONE_IP}:${OPENSHIFT_PDRONE_HTTP_PORT}/login
 
 function isrunning () {
