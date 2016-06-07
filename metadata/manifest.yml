@@ -9,7 +9,7 @@ Versions:
  - '0.13.0'
 License: "EPL"
 License-Url: https://www.eclipse.org/legal/epl-v10.html
-Source-Url: https://github.com/eclipse/packagedrone
+Source-Url: https://github.com/ctron/package-drone-openshift.git
 Website: https://eclipse.org/package-drone/
 Help-Topics:
     "Documentation": http://doc.packagedrone.org/book/
