@@ -1,4 +1,4 @@
-# Package Drone on OpenShift
+# Eclipse Package Drone™ on OpenShift
 
 This repository provides Package Drone Cartridge for OpenShift
 

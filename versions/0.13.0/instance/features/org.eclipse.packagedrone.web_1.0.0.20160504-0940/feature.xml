@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.packagedrone.web"
+      label="Package Drone Web Layer"
+      version="1.0.0.20160504-0940"
+      provider-name="IBH SYSTEMS GmbH">
+
+   <description>
+      Eclipse Package Drone external dependencies
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.packagedrone.web"
+         download-size="127"
+         install-size="239"
+         version="1.0.0.20160426-1248"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.packagedrone.web.common"
+         download-size="771"
+         install-size="2065"
+         version="1.0.0.20160504-0940"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.packagedrone.web.common.ckeditor"
+         download-size="1269"
+         install-size="3244"
+         version="1.0.0.20160415-0740"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.packagedrone.web.dispatcher"
+         download-size="35"
+         install-size="63"
+         version="1.0.0.20160203-1224"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.packagedrone.web.forms"
+         download-size="30"
+         install-size="57"
+         version="1.0.0.20160426-1109"
+         unpack="false"/>
+
+</feature>

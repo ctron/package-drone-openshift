@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.packagedrone.external"
+      label="External Dependencies"
+      version="1.0.0.20151218-0948"
+      provider-name="IBH SYSTEMS GmbH">
+
+   <description>
+      Eclipse Package Drone external dependencies
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.tukani.xz"
+         download-size="137"
+         install-size="217"
+         version="1.5.0.20151105-1627"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.packagedrone.external.maven"
+         download-size="701"
+         install-size="777"
+         version="1.0.0.20151126-0948"/>
+
+   <plugin
+         id="org.apache.jasper.glassfish"
+         download-size="581"
+         install-size="1273"
+         version="2.3.2.20151218-0948"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.jsp.jasper"
+         download-size="23"
+         install-size="36"
+         version="1.0.500.20151105-1625"
+         unpack="false"/>
+
+</feature>

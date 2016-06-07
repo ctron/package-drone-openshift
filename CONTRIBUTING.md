@@ -1,3 +1,3 @@
-This is the OpenShift cartridge for Package Drone.
+This is the OpenShift cartridge for Eclipse Package Drone™.
 
-For Package Drone itself see https://github.com/ctron/package-drone
+For Package Drone itself see https://eclipse.org/package-drone

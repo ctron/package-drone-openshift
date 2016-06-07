@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.packagedrone.utils"
+      label="Package Drone Utilities"
+      version="1.0.0.20160518-1208"
+      provider-name="IBH SYSTEMS GmbH">
+
+   <description>
+      Eclipse Package Drone external dependencies
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.packagedrone.utils"
+         download-size="35"
+         install-size="66"
+         version="1.0.0.20160303-1627"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.packagedrone.utils.console"
+         download-size="6"
+         install-size="7"
+         version="1.0.0.20151104-1838"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.packagedrone.utils.converter"
+         download-size="31"
+         install-size="58"
+         version="1.0.0.20160426-1248"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.packagedrone.utils.deb"
+         download-size="15"
+         install-size="24"
+         version="1.0.0.20160224-1333"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.packagedrone.utils.logging.jul"
+         download-size="4"
+         install-size="3"
+         version="1.0.0.20151104-1838"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.packagedrone.utils.profiler"
+         download-size="17"
+         install-size="28"
+         version="1.0.0.20151104-1838"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.packagedrone.utils.rpm"
+         download-size="109"
+         install-size="235"
+         version="0.13.0.20160518-1208"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.packagedrone.utils.scheduler"
+         download-size="4"
+         install-size="3"
+         version="1.0.0.20151104-1838"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.packagedrone.utils.scheduler.simple"
+         download-size="9"
+         install-size="14"
+         version="1.0.0.20151126-0948"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.packagedrone.utils.validation"
+         download-size="12"
+         install-size="19"
+         version="1.0.0.20151104-1838"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.packagedrone.utils.validation.hibernate"
+         download-size="3"
+         install-size="3"
+         version="1.0.0.20151104-1838"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.packagedrone.utils.xml"
+         download-size="4"
+         install-size="5"
+         version="1.0.0.20151126-0948"
+         unpack="false"/>
+
+</feature>
